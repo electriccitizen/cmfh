@@ -1,0 +1,17 @@
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.gold {
+  color: gold!important;
+  opacity:1.0;
+}
+
+.dark {
+  background: #000;
+  opacity: 0.4;
+}

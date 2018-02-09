@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+                <!-- INTRO -->
+                <section data-background="media/robot.jpg" data-background-color="#000000">
+
+					<div style="margin-left: 360px; margin-top: 100px;">
+					<div class="title">
+
+					<h2>Configuration <br />management
+					<br />for <span class="gold">humans</span></h2>
+					</div>
+						<p>
+						<small>A Drupal 8 presentation by<br /> <a class="gold" href="http://electriccitizen.com">Tim Broeker @ Electric Citizen</a></small>
+					</p>
+                    </div>
+					<aside class="notes">
+						*introduction
+						*next slide: ec/about me
+					</aside>
+				</section>
+
+
+                <!-- HOW DID WE GET HERE -->
+                <section data-markdown>
+                    ## How did we get here?
+                    * Learn about the history of configuration in Drupal
+                    * the rise and fall of the Features module
+                    * the promise of a better way
+                    * and the ultimate decision to develop a new configuration system for Drupal 8.
+                </section>
+
+                <!-- WHY IS IT IMPORTANT -->
+                <section data-markdown>
+                    ##  Why is it important?
+                    * real world examples
+                    * explain why the configuration system is so important
+                    * cut your development time by as much as 30% or more
+                    * a virtually fail safe solution for deploying Drupal
+                    * one-person show
+                    * or a large distributed team deploying mission critical websites.
+                </section>
+
+                <!-- HOW DOES IT WORK -->
+                <section data-markdown>
+                    ##  How does it work?
+                    * basic fundamentals of configuration management
+                    * difference between “active” configuration and configuration in “code”
+                    * and why it matters.
+                    * basics of the Configuration API
+                    * the configuration UI
+                    * critical Drush commands to effectively manage configuration
+                </section>
+
+                <!-- Okay, but how does it REALLY work? -->
+                <section data-markdown>
+                    ##  Okay, but how does it REALLY work?
+                    * Managing configuration in a team environment -- learn how to do fail-safe deploys no matter who is working on a ite
+                    * Configuration Split module -- learn how to use different configuration schemes depending on your environment
+                    * Configuration exclusions -- learn how clients can make configuration changes on things like Webforms without losing work
+                    * Gotchas -- learn what to do when things go crazy and the key_value_expire table takes over your configuration
+                    * How to recover when things go bad -- avoid configuration loss and overriding work
+                    <aside data-markdown>
+                        The truth is that configuration management is complicatedand even more so once you start to encounter some of the difficulties surrounding projects that are complicated by clients, content editors, and multiple developers who are all actively trying to work on a site.
+
+                        This session will do a deep dive into these issues and solutions such as:
+                    </aside>
+                </section>
+
+                <!-- TO INFINITY -->
+                <section data-markdown>
+                    ##  To infinity, and beyond!
+                    * What is happening in core? (e.g. configuration split)
+                    * Devops and continuous integration
+                    * Better QA and fail safe deploys every time
+                    * Why the configuration system matters, even for a single developer
+                    <aside data-markdown>
+                        Finally we will take a look at the future of configuration management in Drupal, and some of the more powerful ways it can help you:
+                    </aside>
+                </section>
+
+                <!-- TO INFINITY -->
+                <section data-markdown>
+                    ##  THE END
+                    By the end of this session you should have a fundamental understanding of the Drupal 8 configuration system, a list of real world best practices and strategies, and a plan for how you can leverage the configuration system to take your Drupal 8 builds to ever greater heights.
+                    <aside data-markdown>
+                        Finally we will take a look at the future of configuration management in Drupal, and some of the more powerful ways it can help you:
+                    </aside>
+                </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+		</div>
+
+
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    // Interpret Markdown in <section> elements
+                    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+
+                ]
+			});
+		</script>
+	</body>
+</html>
