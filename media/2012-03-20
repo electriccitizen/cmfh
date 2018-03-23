@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<title>Tuesday 3/20 Schedule | DrupalCon Denver</title>
+<link rel="shortcut icon" type="image/x-icon" href="../../sites/all/themes/denver2012/images/favicon.ico" />
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/css/css_iFEBSiyvf90qqrL5C2IvMwKmKNDApkE3rcQ3OyJz_EY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/css/css_ymeurkYuX7mxUxMLlySsv9WfsK1fECsEzr4o1ndoS2I.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/css/css_ZWfDxZTRJZ6UZrGl6D7XGF2fIxprQB3wXVyCoGsF2VI.css" media="all" />
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-program page-program-schedule page-program-schedule-2012-03-20 section-program" >
+    <div id="skip-link">
+    <a href="2012-03-20#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <div id="wrapper">
+      <div id="utility">
+      <div class="container">
+        <div id="block-menu-menu-secondary-navigation" class="block block-menu">
+      <ul class="menu"><li class="first leaf"><a href="../../index.html" title="">Home</a></li>
+<li class="leaf"><a href="../../news.1" title="Drupalcon news and updates">News</a></li>
+<li class="leaf"><a href="../../about" title="About Drupalcon Denver">About</a></li>
+<li class="last leaf"><a href="../../contact" title="Contact Drupalcon Denver organizers and site administrators">Contact</a></li>
+</ul></div><div id="block-search-form" class="block block-search">
+      <form action="2012-03-20" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form form-disabled">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." disabled="disabled" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" disabled="disabled" id="edit-actions"><input disabled="disabled" type="submit" id="edit-submit" name="op" value="Search" class="form-submit form-button-disabled" /></div><input disabled="disabled" type="hidden" name="form_build_id" value="form-sSz12P6e5nqh1-hRrNyZ_KOECwAWb-TYxK0RR8NPmV8" />
+<input disabled="disabled" type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form></div><div id="block-system-user-menu" class="block block-system block-menu">
+      <ul class="menu"><li class="first leaf"><a href="../../my-schedule" title="Personal schedule">My schedule</a></li>
+<li class="last leaf"><a href="../../user/login" title="">Log in</a></li>
+</ul></div>      </div>
+    </div>
+        <div id="navigation">
+      <div class="container">
+        <div id="block-menu-block-1" class="block block-menu-block">
+      <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first expanded menu-mlid-2119"><a href="../../program.1">Program</a><ul class="menu"><li class="first leaf menu-mlid-2683"><a href="index.html" title="">Schedule</a></li>
+<li class="leaf menu-mlid-3043"><a href="../../bofs.1">BoFs</a></li>
+<li class="leaf menu-mlid-2393"><a href="../../trainings" title="">Training</a></li>
+<li class="leaf menu-mlid-2239"><a href="../../core-conversations">Core Conversations</a></li>
+<li class="leaf menu-mlid-2224"><a href="../../drupal-means-business">Drupal Means Business</a></li>
+<li class="last leaf menu-mlid-2768"><a href="../../cxo" title="One day business training event for Drupal businesses">CxO - Drupal Business Training &amp; Open Forum</a></li>
+</ul></li>
+<li class="expanded menu-mlid-2254"><a href="../../featured-speakers">Speakers</a><ul class="menu"><li class="first leaf menu-mlid-2259"><a href="../../featured-speakers" title="">Featured Speakers</a></li>
+<li class="last leaf menu-mlid-2264"><a href="../../speaker-faq">Speaker FAQ and Resources</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1539"><a href="../../venue" title="Venue and location details about DrupalCon Denver">Venue</a><ul class="menu"><li class="first leaf menu-mlid-2079"><a href="../../hotel-information">Lodging</a></li>
+<li class="leaf menu-mlid-2688"><a href="../../discount-shuttle-service">Discount Shuttle Service</a></li>
+<li class="last leaf menu-mlid-3073"><a href="../../bookstore">Bookstore</a></li>
+</ul></li>
+<li class="expanded menu-mlid-2289"><a href="../../attendees" title="">Community</a><ul class="menu"><li class="first leaf menu-mlid-3018"><a href="../../attendees" title="DrupalCon attendees">Attendees</a></li>
+<li class="leaf menu-mlid-2299"><a href="../../spread-the-word">Spread the Word</a></li>
+<li class="leaf menu-mlid-2294"><a href="../../volunteers">Volunteers</a></li>
+<li class="leaf menu-mlid-2099"><a href="../../scholarships">Scholarships</a></li>
+<li class="leaf menu-mlid-2249"><a href="../../party">Parties &amp; Entertainment</a></li>
+<li class="leaf menu-mlid-2773"><a href="../../drupalcon-hackathon-2012">DrupalCon Hackathon 2012</a></li>
+<li class="leaf menu-mlid-2763"><a href="../../twilio-contest">Twilio Contest</a></li>
+<li class="leaf menu-mlid-2748"><a href="../../forum.1" title="Discussion conference logistics or Denver in the forums">Forums</a></li>
+<li class="leaf menu-mlid-3033"><a href="../../sprints">Sprints &amp; Coder Lounge</a></li>
+<li class="leaf menu-mlid-2923"><a href="../../ski-board-trip">Ski &amp; Board Trip</a></li>
+<li class="leaf menu-mlid-2304"><a href="../../drupalgangers">Drupalgängers</a></li>
+<li class="last leaf menu-mlid-3084"><a href="../../apps">Apps</a></li>
+</ul></li>
+<li class="last expanded menu-mlid-1544"><a href="../../sponsors" title="Sponsors of Drupalcon Denver">Sponsors</a><ul class="menu"><li class="first leaf menu-mlid-2324"><a href="../../sponsor-badges">Sponsor Badges</a></li>
+<li class="leaf menu-mlid-2818"><a href="../../jobs-sponsors">Jobs from Sponsors</a></li>
+<li class="leaf menu-mlid-2823"><a href="../../offers-sponsors">Offers from Sponsors</a></li>
+<li class="last leaf menu-mlid-2753"><a href="../../sponsor-exhibit-kit">Sponsor Exhibit Kit</a></li>
+</ul></li>
+</ul></div>
+</div><div id="block-block-19" class="block block-block">
+      <a href="../../register" class="tickets">Tickets &amp; Registration</a></div>      </div>
+    </div>
+    <div id="header">
+    <div class="container">
+      <h1 id="logo">
+        <a href="../../index.html">DrupalCon Denver <time datetime="2012-03-19">March 19-23, 2012</time></a>
+      </h1>
+      <h2 id="theme">Collaborative Publishing for Every Device</h2>
+                <div id="block-google-admanager-4b61bb1308ed3b86a510c5a5c5f79dc7" class="block block-google-admanager">
+        <h2 class="block-title">Diamond Sponsor</h2>
+    <div id="gam-holder-denver-diamond" class="gam-holder"></div></div>          </div>
+  </div>
+  
+    
+  <div id="main">
+    <div class="container">
+      
+            
+      <div id="main-content">
+        <div id="content-wrapper">
+                      <div id="tabs">
+              <h2 class="element-invisible">Primary tabs</h2><ul class="tabs primary"><li><a href="2012-03-19">Mon.</a></li>
+<li class="active"><a href="2012-03-20" class="active">Tues.<span class="element-invisible">(active tab)</span></a></li>
+<li><a href="2012-03-21">Wed.</a></li>
+<li><a href="index.html">Thurs.</a></li>
+<li><a href="2012-03-23">Fri.</a></li>
+</ul>            </div>
+                    <div id="content">
+                          <h1>Tuesday 3/20 Schedule</h1> 
+                                                <div id="block-system-main" class="block block-system">
+        <div class="view-header"><p>Registration and badge pickup at the Convention Center <strong>7:00AM to 6:00PM</strong>. See the <a href="../../program.1">general program</a> for an overview of all DrupalCon activities.</p>
+</div>
+<form action="2012-03-20" method="get" id="views-exposed-form-schedule-page" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-track-wrapper" class="views-exposed-widget views-widget-filter-field_track_value">
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-track form-disabled">
+ <div class="form-checkboxes bef-select-as-checkboxes"><div class="bef-checkboxes"><div class="form-item form-type-bef-checkbox form-item-edit-track-0">
+ <input type="checkbox" name="track[]" id="edit-track-0" value="0"  multiple="multiple" name="track[]" disabled="disabled" /> <label class='option' for='edit-track-0'>Commerce</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-track-1">
+ <input type="checkbox" name="track[]" id="edit-track-1" value="1"  multiple="multiple" name="track[]" disabled="disabled" /> <label class='option' for='edit-track-1'>Site building</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-track-2">
+ <input type="checkbox" name="track[]" id="edit-track-2" value="2"  multiple="multiple" name="track[]" disabled="disabled" /> <label class='option' for='edit-track-2'>Coding and development</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-track-3">
+ <input type="checkbox" name="track[]" id="edit-track-3" value="3"  multiple="multiple" name="track[]" disabled="disabled" /> <label class='option' for='edit-track-3'>Design and user experience</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-track-4">
+ <input type="checkbox" name="track[]" id="edit-track-4" value="4"  multiple="multiple" name="track[]" disabled="disabled" /> <label class='option' for='edit-track-4'>Drupal community</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-track-5">
+ <input type="checkbox" name="track[]" id="edit-track-5" value="5"  multiple="multiple" name="track[]" disabled="disabled" /> <label class='option' for='edit-track-5'>Business and strategy</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-track-6">
+ <input type="checkbox" name="track[]" id="edit-track-6" value="6"  multiple="multiple" name="track[]" disabled="disabled" /> <label class='option' for='edit-track-6'>Mobile</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-track-7">
+ <input type="checkbox" name="track[]" id="edit-track-7" value="7"  multiple="multiple" name="track[]" disabled="disabled" /> <label class='option' for='edit-track-7'>Nonprofit, Government &amp; Education</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-track-8">
+ <input type="checkbox" name="track[]" id="edit-track-8" value="8"  multiple="multiple" name="track[]" disabled="disabled" /> <label class='option' for='edit-track-8'>Core Conversations</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-track-9">
+ <input type="checkbox" name="track[]" id="edit-track-9" value="9"  multiple="multiple" name="track[]" disabled="disabled" /> <label class='option' for='edit-track-9'>Day Stage</label>
+</div>
+</div></div>
+</div>
+        </div>
+      </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <input disabled="disabled" type="submit" id="edit-submit-schedule" name="" value="Apply" class="form-submit form-button-disabled" />    </div>
+      </div>
+</div>
+</div></form>
+<span class="date-display-single" id=20-800>
+  Tue, 8:00am - 8:30am</span>
+<ul class="list"><li class="list-item views-row views-row-1 views-row-odd views-row-first views-row-last has-track track-drupal-community track-4 has-experience experience-beginner">  
+          <h3 class="session-title"><a href="../sessions/robert-and-jams-intro-drupalcon">Robert and Jam&#039;s Intro to Drupal(Con)</a></h3>    
+  <div class="session-track">        Drupal community  </div>  
+  <div class="session-level">        Beginner  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/wells-fargo-theater">Wells Fargo Theater</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/horncologne">horncologne</a>, <a href="../../users/robertdouglass">robertDouglass</a>  </div></li></ul>
+<span class="date-display-single" id=20-900>
+  Tue, 9:00am - 10:15am</span>
+<ul class="list"><li class="list-item views-row views-row-1 views-row-odd views-row-first views-row-last">  
+          <h3 class="session-title"><a href="../../keynote/dries-buytaert">Keynote - Dries Buytaert</a></h3>    
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/wells-fargo-theater">Wells Fargo Theater</a></span>  </span></li></ul>
+<span class="date-display-single" id=20-1045>
+  Tue, 10:45am - 11:45am</span>
+<ul class="list"><li class="list-item views-row views-row-1 views-row-odd views-row-first has-track track-mobile track-6 has-experience experience-beginner">  
+          <h3 class="session-title"><a href="../sessions/responsive-web-design-past-present-and-future">Responsive Web Design: The Past, Present, and Future</a></h3>    
+  <div class="session-track">        Mobile  </div>  
+  <div class="session-level">        Beginner  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/mhb-1a">Four Kitchens Room MHB 1A</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/lewisnyman">lewisnyman</a>  </div></li><li class="list-item views-row views-row-2 views-row-even has-track track-drupal-community track-4 has-experience experience-intermediate">  
+          <h3 class="session-title"><a href="../sessions/drupal-marketplace-how-what-we-sell-and-how-we-sell-it-affects-community-our">The Drupal Marketplace: How &quot;What We Sell&quot; and &quot;How We Sell it&quot; Affects the Community, Our Clients, &amp; Drupal</a></h3>    
+  <div class="session-track">        Drupal community  </div>  
+  <div class="session-level">        Intermediate  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/405">Drupalize.me Room 405</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/karenborchert">karenborchert</a>, <a href="../../users/matt-westgate">matt westgate</a>, <a href="../../users/moshe-weitzman">moshe weitzman</a>, <a href="../../users/rszrama">rszrama</a>  </div></li><li class="list-item views-row views-row-3 views-row-odd has-track track-site-building track-1 has-experience experience-beginner">  
+          <h3 class="session-title"><a href="../sessions/drupal-media">Drupal Media</a></h3>    
+  <div class="session-track">        Site building  </div>  
+  <div class="session-level">        Beginner  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/603">Forum One Room 603</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/aaron">aaron</a>, <a href="../../users/dave-reid">Dave Reid</a>  </div></li><li class="list-item views-row views-row-4 views-row-even has-track track-coding-and-development track-2 has-experience experience-intermediate">  
+          <h3 class="session-title"><a href="../sessions/tame-burrito-understanding-five-layers-drupal">Tame the Burrito: Understanding the Five Layers of Drupal</a></h3>    
+  <div class="session-track">        Coding and development  </div>  
+  <div class="session-level">        Intermediate  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/203">Acquia Room 203</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/eaton">eaton</a>  </div></li><li class="list-item views-row views-row-5 views-row-odd has-track track-business-and-strategy track-5 has-experience experience-intermediate">  
+          <h3 class="session-title"><a href="../sessions/no-rfps-why-requests-proposals-are-bad-business-and-how-we-can-stop-them">No RFPs! Why Requests for Proposals are Bad for Business (and How We Can Stop Them)</a></h3>    
+  <div class="session-track">        Business and strategy  </div>  
+  <div class="session-level">        Intermediate  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/mhb-4e">WorkHabit Room MHB 4E</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/bskowron">bskowron</a>, <a href="../../users/crystalwilliams">CrystalWilliams</a>, <a href="../../users/todd-nienkerk">Todd Nienkerk</a>, <a href="../../users/zchandler">zchandler</a>  </div></li><li class="list-item views-row views-row-6 views-row-even has-track track-nonprofit-government-amp-education track-7 has-experience experience-beginner">  
+          <h3 class="session-title"><a href="../sessions/story-energygov-ins-and-outs-turning-energy-dot-blah-energy-dot-awesome">The Story of Energy.gov: The Ins and Outs of Turning Energy-dot-Blah into Energy-dot-Awesome</a></h3>    
+  <div class="session-track">        Nonprofit, Government &amp; Education  </div>  
+  <div class="session-level">        Beginner  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/mhb-4a">Phase2 Technology Room MHB 4A</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/cammie-croft">Cammie Croft</a>  </div></li><li class="list-item views-row views-row-7 views-row-odd has-track track-design-and-user-experience track-3 has-experience experience-beginner">  
+          <h3 class="session-title"><a href="../sessions/beginner-theming">Beginner Theming</a></h3>    
+  <div class="session-track">        Design and user experience  </div>  
+  <div class="session-level">        Beginner  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/401">Trellon Room 401</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/davidneedham">davidneedham</a>  </div></li><li class="list-item views-row views-row-8 views-row-even has-track track-day-stage track-9">  
+  <div>        <div class="time">10:45am to 11:45am</div>  </div>  
+          <h3 class="session-title"><a href="../../content/ultimate-drupal-developer-experience-power-tools-power-users">The Ultimate Drupal Developer Experience - Power Tools for Power Users</a></h3>    
+  <div class="session-track">        Day Stage  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../day-stage">NewMedia! Day Stage</a></span>  </span></li><li class="list-item views-row views-row-9 views-row-odd has-track track-core-conversations track-8 has-experience experience-advanced">  
+  <div>        <div class="time">10:45am to 11:15am</div>  </div>  
+          <h3 class="session-title"><a href="../../content/status-configuration-management-initiative">Status of the Configuration Management Initiative</a></h3>    
+  <div class="session-track">        Core Conversations  </div>  
+  <div class="session-level">        Advanced  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/mhb-1e">BlackMesh Room MHB 1E</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/heyrocker">heyrocker</a>  </div></li><li class="list-item views-row views-row-10 views-row-even views-row-last has-track track-core-conversations track-8 has-experience experience-advanced">  
+  <div>        <div class="time">11:15am to 11:45am</div>  </div>  
+          <h3 class="session-title"><a href="../../content/content-staging-core">Content Staging in Core</a></h3>    
+  <div class="session-track">        Core Conversations  </div>  
+  <div class="session-level">        Advanced  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/mhb-1e">BlackMesh Room MHB 1E</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/dixon">dixon_</a>  </div></li></ul>
+<span class="date-display-single" id=20-1145>
+  Tue, 11:45am - 1:00pm</span>
+<ul class="list"><li class="list-item views-row views-row-1 views-row-odd views-row-first views-row-last">  
+          <h3 class="session-title"><a href="../../schedule/lunch-tues">Lunch</a></h3>    
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/hall-a">Hall A</a></span>  </span></li></ul>
+<span class="date-display-single" id=20-100>
+  Tue, 1:00pm - 2:00pm</span>
+<ul class="list"><li class="list-item views-row views-row-1 views-row-odd views-row-first has-track track-drupal-community track-4 has-experience experience-beginner">  
+          <h3 class="session-title"><a href="../sessions/essential-knowledge-drupal-beginners">Essential Knowledge for Drupal Beginners</a></h3>    
+  <div class="session-track">        Drupal community  </div>  
+  <div class="session-level">        Beginner  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/mhb-4a">Phase2 Technology Room MHB 4A</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/itangalo">Itangalo</a>  </div></li><li class="list-item views-row views-row-2 views-row-even has-track track-site-building track-1 has-experience experience-intermediate">  
+          <h3 class="session-title"><a href="../sessions/og7-pride-and-prejudice">OG7 - Pride and Prejudice</a></h3>    
+  <div class="session-track">        Site building  </div>  
+  <div class="session-level">        Intermediate  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/203">Acquia Room 203</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/amitaibu">Amitaibu</a>  </div></li><li class="list-item views-row views-row-3 views-row-odd has-track track-design-and-user-experience track-3 has-experience experience-beginner">  
+          <h3 class="session-title"><a href="../sessions/design-revolution">The Design Revolution</a></h3>    
+  <div class="session-track">        Design and user experience  </div>  
+  <div class="session-level">        Beginner  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/mhb-4e">WorkHabit Room MHB 4E</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/brad-haynes">Brad Haynes</a>  </div></li><li class="list-item views-row views-row-4 views-row-even has-track track-business-and-strategy track-5 has-experience experience-beginner">  
+          <h3 class="session-title"><a href="../sessions/building-internal-training-and-assessment-program">Building an Internal Training and Assessment Program</a></h3>    
+  <div class="session-track">        Business and strategy  </div>  
+  <div class="session-level">        Beginner  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/405">Drupalize.me Room 405</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/jacobsingh">JacobSingh</a>  </div></li><li class="list-item views-row views-row-5 views-row-odd has-track track-mobile track-6 has-experience experience-intermediate">  
+          <h3 class="session-title"><a href="../sessions/native-mobile-application-development-drupal">Native Mobile Application Development on Drupal</a></h3>    
+  <div class="session-track">        Mobile  </div>  
+  <div class="session-level">        Intermediate  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/mhb-1a">Four Kitchens Room MHB 1A</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/kylebrowning">kylebrowning</a>  </div></li><li class="list-item views-row views-row-6 views-row-even has-track track-coding-and-development track-2 has-experience experience-intermediate">  
+          <h3 class="session-title"><a href="../sessions/building-drupal-apps-distributions">Building Drupal Apps for Distributions</a></h3>    
+  <div class="session-track">        Coding and development  </div>  
+  <div class="session-level">        Intermediate  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/603">Forum One Room 603</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/febbraro">febbraro</a>, <a href="../../users/walkah">walkah</a>  </div></li><li class="list-item views-row views-row-7 views-row-odd has-track track-nonprofit-government-amp-education track-7 has-experience experience-beginner">  
+          <h3 class="session-title"><a href="../sessions/we-people-whitehousegov-citizen-engagement-powered-drupal">We the People &amp; WhiteHouse.gov: Citizen Engagement Powered by Drupal</a></h3>    
+  <div class="session-track">        Nonprofit, Government &amp; Education  </div>  
+  <div class="session-level">        Beginner  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/401">Trellon Room 401</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/cochran">cochran</a>  </div></li><li class="list-item views-row views-row-8 views-row-even has-track track-core-conversations track-8 has-experience experience-advanced">  
+  <div>        <div class="time">01:00pm to 02:00pm</div>  </div>  
+          <h3 class="session-title"><a href="../../content/initiatives-formerly-known-wscci">The Initiatives Formerly Known as WSCCI</a></h3>    
+  <div class="session-track">        Core Conversations  </div>  
+  <div class="session-level">        Advanced  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/mhb-1e">BlackMesh Room MHB 1E</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/crell">Crell</a>, <a href="../../users/eclipsegc">EclipseGc</a>  </div></li><li class="list-item views-row views-row-9 views-row-odd views-row-last has-track track-day-stage track-9">  
+  <div>        <div class="time">01:00pm to 02:00pm</div>  </div>  
+          <h3 class="session-title"><a href="../../content/panel-drupal-cloud">Panel: Drupal in the Cloud</a></h3>    
+  <div class="session-track">        Day Stage  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../day-stage">NewMedia! Day Stage</a></span>  </span></li></ul>
+<span class="date-display-single" id=20-215>
+  Tue, 2:15pm - 3:15pm</span>
+<ul class="list"><li class="list-item views-row views-row-1 views-row-odd views-row-first has-track track-drupal-community track-4 has-experience experience-beginner">  
+          <h3 class="session-title"><a href="../sessions/drupal-community-where-are-we-going-and-how-get-involved">The Drupal Community: Where Are We Going and How to Get Involved?</a></h3>    
+  <div class="session-track">        Drupal community  </div>  
+  <div class="session-level">        Beginner  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/mhb-1a">Four Kitchens Room MHB 1A</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/webchick">webchick</a>  </div></li><li class="list-item views-row views-row-2 views-row-even has-track track-mobile track-6 has-experience experience-intermediate">  
+          <h3 class="session-title"><a href="../sessions/practical-responsive-development-drupal">Rethinking responsive building techniques with Drupal</a></h3>    
+  <div class="session-track">        Mobile  </div>  
+  <div class="session-level">        Intermediate  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/203">Acquia Room 203</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/johnalbin">JohnAlbin</a>  </div></li><li class="list-item views-row views-row-3 views-row-odd has-track track-site-building track-1 has-experience experience-intermediate">  
+          <h3 class="session-title"><a href="../sessions/changing-tires-60-mph-how-martha-stewart-living-migrated-drupal">Changing the tires at 60 MPH: How Martha Stewart Living migrated to Drupal</a></h3>    
+  <div class="session-track">        Site building  </div>  
+  <div class="session-level">        Intermediate  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/405">Drupalize.me Room 405</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/apotek">apotek</a>, <a href="../../users/iratau">iratau</a>, <a href="../../users/markdorison">markdorison</a>, <a href="../../users/q0rban">q0rban</a>, <a href="../../users/rohnjeynolds">rohnjeynolds</a>, <a href="../../users/tpitre">tpitre</a>  </div></li><li class="list-item views-row views-row-4 views-row-even has-track track-coding-and-development track-2 has-experience experience-intermediate">  
+          <h3 class="session-title"><a href="../sessions/services-inside-and-out">Services Inside and Out</a></h3>    
+  <div class="session-track">        Coding and development  </div>  
+  <div class="session-level">        Intermediate  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/401">Trellon Room 401</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/kylebrowning">kylebrowning</a>, <a href="../../users/marcingy">marcingy</a>  </div></li><li class="list-item views-row views-row-5 views-row-odd has-track track-design-and-user-experience track-3 has-experience experience-intermediate">  
+          <h3 class="session-title"><a href="../sessions/using-sass-compass-drupal-theming">Using Sass &amp; Compass in Drupal Theming</a></h3>    
+  <div class="session-track">        Design and user experience  </div>  
+  <div class="session-level">        Intermediate  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/603">Forum One Room 603</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/mfer">mfer</a>, <a href="../../users/nathan-smith">Nathan Smith</a>  </div></li><li class="list-item views-row views-row-6 views-row-even has-track track-nonprofit-government-amp-education track-7 has-experience experience-beginner">  
+          <h3 class="session-title"><a href="../sessions/how-drupal-transforming-government-7-case-studies">How Drupal is Transforming Government: 7 Case Studies</a></h3>    
+  <div class="session-track">        Nonprofit, Government &amp; Education  </div>  
+  <div class="session-level">        Beginner  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/mhb-4a">Phase2 Technology Room MHB 4A</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/jwalpole">jwalpole</a>  </div></li><li class="list-item views-row views-row-7 views-row-odd has-track track-business-and-strategy track-5 has-experience experience-beginner">  
+          <h3 class="session-title"><a href="../sessions/growing-virtual-company-maintaining-team-moxie">Growing a Virtual Company &amp; Maintaining Team Moxie</a></h3>    
+  <div class="session-track">        Business and strategy  </div>  
+  <div class="session-level">        Beginner  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/mhb-4e">WorkHabit Room MHB 4E</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/matt-westgate">matt westgate</a>  </div></li><li class="list-item views-row views-row-8 views-row-even has-track track-core-conversations track-8 has-experience experience-advanced">  
+  <div>        <div class="time">02:15pm to 03:15pm</div>  </div>  
+          <h3 class="session-title"><a href="../../content/drupal-8-becoming-more-multilingual-and-you-can-help">Drupal 8 is becoming more multilingual and you can help!</a></h3>    
+  <div class="session-track">        Core Conversations  </div>  
+  <div class="session-level">        Advanced  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/mhb-1e">BlackMesh Room MHB 1E</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/gábor-hojtsy">Gábor Hojtsy</a>  </div></li><li class="list-item views-row views-row-9 views-row-odd views-row-last has-track track-day-stage track-9">  
+  <div>        <div class="time">02:15pm to 03:15pm</div>  </div>  
+          <h3 class="session-title"><a href="../../content/lessons-social-driving-how-make-smart-car-smarter-drupal">Lessons in Social Driving: How to Make a Smart Car Smarter with Drupal</a></h3>    
+  <div class="session-track">        Day Stage  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../day-stage">NewMedia! Day Stage</a></span>  </span></li></ul>
+<span class="date-display-single" id=20-345>
+  Tue, 3:45pm - 4:45pm</span>
+<ul class="list"><li class="list-item views-row views-row-1 views-row-odd views-row-first has-track track-site-building track-1 has-experience experience-intermediate">  
+          <h3 class="session-title"><a href="../sessions/dont-get-lost-translation-multilingual-site-building-drupal-7">Don&#039;t Get Lost in Translation: Multilingual Site Building with Drupal 7</a></h3>    
+  <div class="session-track">        Site building  </div>  
+  <div class="session-level">        Intermediate  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/203">Acquia Room 203</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/floretan">floretan</a>, <a href="../../users/pixelite">pixelite</a>  </div></li><li class="list-item views-row views-row-2 views-row-even has-track track-design-and-user-experience track-3 has-experience experience-intermediate">  
+          <h3 class="session-title"><a href="../sessions/html-4-s-while-were-waiting-revolution">HTML 4 S - While We&#039;re Waiting for the Revolution</a></h3>    
+  <div class="session-track">        Design and user experience  </div>  
+  <div class="session-level">        Intermediate  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/401">Trellon Room 401</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/mortendk">mortendk</a>  </div></li><li class="list-item views-row views-row-3 views-row-odd has-track track-business-and-strategy track-5 has-experience experience-advanced">  
+          <h3 class="session-title"><a href="../sessions/lessons-learned-open-source-contributions-case-study-workbench">Lessons Learned:  Open Source Contributions - A Case Study of Workbench</a></h3>    
+  <div class="session-track">        Business and strategy  </div>  
+  <div class="session-level">        Advanced  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/603">Forum One Room 603</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/caroltron">caroltron</a>, <a href="../../users/robeano">robeano</a>  </div></li><li class="list-item views-row views-row-4 views-row-even has-track track-mobile track-6 has-experience experience-intermediate">  
+          <h3 class="session-title"><a href="../sessions/building-android-apps-drupal">Building Android Apps with Drupal</a></h3>    
+  <div class="session-track">        Mobile  </div>  
+  <div class="session-level">        Intermediate  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/mhb-4a">Phase2 Technology Room MHB 4A</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/skyredwang">skyredwang</a>  </div></li><li class="list-item views-row views-row-5 views-row-odd has-track track-coding-and-development track-2 has-experience experience-intermediate">  
+          <h3 class="session-title"><a href="../sessions/nodejs-javascript-and-future">Node.js, Javascript and the Future</a></h3>    
+  <div class="session-track">        Coding and development  </div>  
+  <div class="session-level">        Intermediate  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/mhb-1a">Four Kitchens Room MHB 1A</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/jmiccolis">jmiccolis</a>  </div></li><li class="list-item views-row views-row-6 views-row-even has-track track-nonprofit-government-amp-education track-7 has-experience experience-intermediate">  
+          <h3 class="session-title"><a href="../sessions/building-and-securing-government-drupal-sites-cloud">Building and Securing Government Drupal Sites in the Cloud</a></h3>    
+  <div class="session-track">        Nonprofit, Government &amp; Education  </div>  
+  <div class="session-level">        Intermediate  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/405">Drupalize.me Room 405</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/brownie1">brownie_1</a>, <a href="../../users/chrisstrahl">chrisstrahl</a>, <a href="../../users/jcsalem">jcsalem</a>, <a href="../../users/mlemire">mlemire</a>  </div></li><li class="list-item views-row views-row-7 views-row-odd has-track track-drupal-community track-4 has-experience experience-beginner">  
+          <h3 class="session-title"><a href="../sessions/painting-bikeshed-lessons-drupal-8-initiative-owner">Painting The Bikeshed: Lessons From A Drupal 8 Initiative Owner</a></h3>    
+  <div class="session-track">        Drupal community  </div>  
+  <div class="session-level">        Beginner  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/mhb-4e">WorkHabit Room MHB 4E</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/heyrocker">heyrocker</a>  </div></li><li class="list-item views-row views-row-8 views-row-even has-track track-day-stage track-9">  
+  <div>        <div class="time">03:45pm to 04:45pm</div>  </div>  
+          <h3 class="session-title"><a href="../../content/lightning-talk-mobile-essentials-drupal">Lightning Talk: Mobile Essentials for Drupal</a></h3>    
+  <div class="session-track">        Day Stage  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../day-stage">NewMedia! Day Stage</a></span>  </span></li><li class="list-item views-row views-row-9 views-row-odd views-row-last has-track track-core-conversations track-8 has-experience experience-advanced">  
+  <div>        <div class="time">03:45pm to 04:45pm</div>  </div>  
+          <h3 class="session-title"><a href="../../content/front-end-performance-improvements">Front End Performance Improvements</a></h3>    
+  <div class="session-track">        Core Conversations  </div>  
+  <div class="session-level">        Advanced  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/mhb-1e">BlackMesh Room MHB 1E</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/mfer">mfer</a>  </div></li></ul>
+<span class="date-display-single" id=20-500>
+  Tue, 5:00pm - 6:00pm</span>
+<ul class="list"><li class="list-item views-row views-row-1 views-row-odd views-row-first has-track track-drupal-community track-4 has-experience experience-intermediate">  
+          <h3 class="session-title"><a href="../sessions/plato-aristotle-and-drupal">Plato, Aristotle, and Drupal</a></h3>    
+  <div class="session-track">        Drupal community  </div>  
+  <div class="session-level">        Intermediate  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/mhb-1a">Four Kitchens Room MHB 1A</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/mbutcher">mbutcher</a>  </div></li><li class="list-item views-row views-row-2 views-row-even has-track track-coding-and-development track-2 has-experience experience-beginner">  
+          <h3 class="session-title"><a href="../sessions/drupal-security-coders-how-avoid-all-your-base-are-belong-us">Drupal Security for Coders - How to Avoid &quot;All Your Base Are Belong To Us&quot;</a></h3>    
+  <div class="session-track">        Coding and development  </div>  
+  <div class="session-level">        Beginner  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/mhb-4a">Phase2 Technology Room MHB 4A</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/meba">meba</a>, <a href="../../users/pwolanin">pwolanin</a>  </div></li><li class="list-item views-row views-row-3 views-row-odd has-track track-business-and-strategy track-5 has-experience experience-beginner">  
+          <h3 class="session-title"><a href="../sessions/im-leaving-you-risks-dumping-your-old-cms-drupal-and-how-manage-them">I&#039;m Leaving You: The Risks of Dumping Your Old CMS for Drupal and How to Manage Them</a></h3>    
+  <div class="session-track">        Business and strategy  </div>  
+  <div class="session-level">        Beginner  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/603">Forum One Room 603</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/nicole-lind">Nicole Lind</a>  </div></li><li class="list-item views-row views-row-4 views-row-even has-track track-design-and-user-experience track-3 has-experience experience-intermediate">  
+          <h3 class="session-title"><a href="../sessions/designing-fast-and-beautiful-maps">Designing Fast and Beautiful Maps</a></h3>    
+  <div class="session-track">        Design and user experience  </div>  
+  <div class="session-level">        Intermediate  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/401">Trellon Room 401</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/alexb">alex_b</a>, <a href="../../users/ericgundersen">ericgundersen</a>  </div></li><li class="list-item views-row views-row-5 views-row-odd has-track track-mobile track-6 has-experience experience-intermediate">  
+          <h3 class="session-title"><a href="../sessions/big-websites-small-screens-icannorg-case-study">Big Websites for Small Screens: ICANN.org Case Study</a></h3>    
+  <div class="session-track">        Mobile  </div>  
+  <div class="session-level">        Intermediate  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/405">Drupalize.me Room 405</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/rupl">rupl</a>, <a href="../../users/todd-nienkerk">Todd Nienkerk</a>, <a href="../../users/zachattack">zachattack</a>  </div></li><li class="list-item views-row views-row-6 views-row-even has-track track-site-building track-1 has-experience experience-beginner">  
+          <h3 class="session-title"><a href="../sessions/webform-survey-tool-drupal">Webform: The Survey Tool For Drupal</a></h3>    
+  <div class="session-track">        Site building  </div>  
+  <div class="session-level">        Beginner  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/203">Acquia Room 203</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/quicksketch">quicksketch</a>  </div></li><li class="list-item views-row views-row-7 views-row-odd has-track track-drupal-community track-4">  
+          <h3 class="session-title"><a href="../../schedule/community-leaders-meeting">Community Leaders Meeting</a></h3>    
+  <div class="session-track">        Drupal community  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/room-602">Drupal Association Room 602</a></span>  </span></li><li class="list-item views-row views-row-8 views-row-even has-track track-nonprofit-government-amp-education track-7 has-experience experience-beginner">  
+          <h3 class="session-title"><a href="../sessions/drupal-and-academy-emerging-technology-community-practice">Drupal and the Academy: Emerging Technology, Community of Practice</a></h3>    
+  <div class="session-track">        Nonprofit, Government &amp; Education  </div>  
+  <div class="session-level">        Beginner  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/mhb-4e">WorkHabit Room MHB 4E</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/zchandler">zchandler</a>  </div></li><li class="list-item views-row views-row-9 views-row-odd has-track track-day-stage track-9">  
+  <div>        <div class="time">05:00pm to 06:00pm</div>  </div>  
+          <h3 class="session-title"><a href="../../content/best-practices-team-and-development-performance-lightening-talk">Best Practices: Team and Development Performance - Lightening Talk</a></h3>    
+  <div class="session-track">        Day Stage  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../day-stage">NewMedia! Day Stage</a></span>  </span></li><li class="list-item views-row views-row-10 views-row-even has-track track-core-conversations track-8 has-experience experience-advanced">  
+  <div>        <div class="time">05:00pm to 05:30pm</div>  </div>  
+          <h3 class="session-title"><a href="../../content/i-just-want-edit-node">I just want to edit a node</a></h3>    
+  <div class="session-track">        Core Conversations  </div>  
+  <div class="session-level">        Advanced  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/mhb-1e">BlackMesh Room MHB 1E</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/robeano">robeano</a>, <a href="../../users/stevector">stevector</a>  </div></li><li class="list-item views-row views-row-11 views-row-odd views-row-last has-track track-core-conversations track-8 has-experience experience-intermediate">  
+  <div>        <div class="time">05:30pm to 06:00pm</div>  </div>  
+          <h3 class="session-title"><a href="../../content/five-things-we-need-create-awesome-experience-content-creators">Five things we need to create an awesome experience for content creators</a></h3>    
+  <div class="session-track">        Core Conversations  </div>  
+  <div class="session-level">        Intermediate  </div>  
+  <span class="views-field views-field-field-session-room">        <span class="field-content"><a href="../../room/mhb-1e">BlackMesh Room MHB 1E</a></span>  </span>  
+  <div class="session-instructor">        <a href="../../users/chrisstrahl">chrisstrahl</a>, <a href="../../users/webchick">webchick</a>  </div></li></ul></div>          </div>
+        </div>
+      
+                  <div id="sidebar-first" class="aside">
+            <div id="block-google-admanager-d78f9abdcfd0f0dc49ff4c00d1c90038" class="block block-google-admanager">
+      <div id="gam-holder-denver-sidebar" class="gam-holder"></div></div><div id="block-block-29" class="block block-block">
+        <h2 class="block-title">Important Dates</h2>
+    <strong><time datetime="2012-08-20">August 20 - August 24</time></strong>
+<ul><li><a href="http://munich2012.drupal.org/">DrupalCon Munich</a></li>
+</ul></div>          </div>
+              </div>
+          </div>
+  </div>
+  <div id="footer">
+    <div class="container">
+      <div id="block-google-admanager-98c171e55494b2136818501ff6c56ea8" class="block block-google-admanager">
+        <h2 class="block-title">Platinum Sponsors</h2>
+    <div id="gam-holder-denver-platinum" class="gam-holder"></div></div><div id="block-block-14" class="block block-block">
+      <p>Powered by Drupal! Drupal is a <a href="http://drupal.com/trademark">registered trademark</a> of <a href="http://buytaert.net">Dries Buytaert</a>. DrupalCon Denver is brought to you by the <a href="../../volunteers">work of volunteers and the Drupal Association</a>.</p>
+
+<a href="../../news/rss.xml" class="rss"><span>RSS</span></a></div>    </div>
+  </div>
+</div>
+<img id="bg-mountains" class="full-image" src="../../sites/all/themes/denver2012/images/bg-mountains.jpg" alt="Colorado mountains"><script type="text/javascript" src="../../sites/default/files/js/js_8_YX9lYSyCcsPZtcj5SaCKQ9yoKUUIAGT80xT3N14Kg.js"></script>
+<script type="text/javascript" src="../../sites/default/files/js/js_LPQUedRJ45VZkLLqi74HPxlsWNh1DPKP89Q87dZNdbM.js"></script>
+<script type="text/javascript" src="../../sites/default/files/js/js_xuLMfFSdBrY1exSNXhIp_GLySKKuXAgwSxSiRuVweWg.js"></script>
+<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js"></script>
+<script type="text/javascript" src="../../sites/default/files/js/js_IDBX5SzkJ9gGNq7x-qOE_2DZsexqguTJQGMKvi4w-Uw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-2360451-5"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="../../sites/default/files/js/js_WEc_1um0dmSXm0eq9z_o3J7rH30wWC5V3zyjaFO4YZU.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"denver2012","theme_token":"G9lJdHRmkMODgkbqQfwtuGNZ8MWU4EpLnBtYU45SFfA","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/mollom\/mollom.js":1,"sites\/all\/modules\/google_admanager\/google_admanager.js":1,"\/\/partner.googleadservices.com\/gampad\/google_service.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/denver2012\/js\/formalize.min.js":1,"sites\/all\/themes\/denver2012\/js\/denver2012.js":1},"css":{"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/mollom\/mollom.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/codefilter\/codefilter.css":1,"sites\/all\/modules\/google_admanager\/google_admanager.css":1,"sites\/all\/modules\/rate\/rate.css":1,"sites\/all\/themes\/nucleus\/assets\/css\/override\/kill\/ctools.css":1,"sites\/all\/themes\/nucleus\/assets\/css\/override\/kill\/field.css":1,"sites\/all\/themes\/nucleus\/assets\/css\/override\/kill\/node.css":1,"sites\/all\/themes\/nucleus\/assets\/css\/override\/kill\/system.messages.css":1,"sites\/all\/themes\/nucleus\/assets\/css\/override\/kill\/system.menus.css":1,"sites\/all\/themes\/nucleus\/assets\/css\/override\/kill\/user.css":1,"sites\/all\/themes\/nucleus\/assets\/css\/override\/kill\/views.css":1,"sites\/all\/themes\/nucleus\/assets\/css\/reset.css":1,"sites\/all\/themes\/nucleus\/assets\/css\/override\/keep\/system.base.css":1,"sites\/all\/themes\/nucleus\/assets\/css\/override\/keep\/system.theme.css":1,"sites\/all\/themes\/nucleus\/assets\/css\/override\/keep\/search.css":1,"sites\/all\/themes\/denver2012\/css\/formalize.css":1,"sites\/all\/themes\/denver2012\/fonts\/steelfish.css":1,"sites\/all\/themes\/denver2012\/css\/screen.css":1}},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"modernizrPath":null,"modernizrServerside":false,"better_exposed_filters":{"bef_datepicker":false},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+GS_googleAddAdSenseService("ca-pub-8747679010629587");
+GS_googleEnableAllServices();
+</script><script type="text/javascript">
+GA_googleAddSlot("ca-pub-8747679010629587", "denver-diamond");
+GA_googleAddSlot("ca-pub-8747679010629587", "denver-platinum");
+GA_googleAddSlot("ca-pub-8747679010629587", "denver-sidebar");
+</script><script type="text/javascript">
+GA_googleFetchAds();
+</script>
+<div id="gam-content-denver-diamond" class="gam-banner"><script type="text/javascript">GA_googleFillSlot("denver-diamond");</script></div>
+<div id="gam-content-denver-platinum" class="gam-banner"><script type="text/javascript">GA_googleFillSlot("denver-platinum");</script></div>
+<div id="gam-content-denver-sidebar" class="gam-banner"><script type="text/javascript">GA_googleFillSlot("denver-sidebar");</script></div></body>
+</html>

@@ -15,3 +15,12 @@
   background: #000;
   opacity: 0.4;
 }
+
+.code {
+  font-family: monospace;
+  text-transform: none;
+  font-size: 200%;
+line-height: 1em;
+  background: black;
+  padding: 1em!important;
+}
