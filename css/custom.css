@@ -24,3 +24,18 @@ line-height: 1em;
   background: black;
   padding: 1em!important;
 }
+
+.guide {
+  font-size: 12px!important;
+  float: right;
+}
+
+.wguide {
+  font-size: 12px!important;
+  float: right;
+  color:white!important;
+}
+
+.sm {
+  font-size: .8em!important;
+}

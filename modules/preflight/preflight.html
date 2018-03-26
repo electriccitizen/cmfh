@@ -1,0 +1,229 @@
+<!-- WHAT IS CONFIGURATION? -->
+<section data-background="media/zig.png"
+         data-background-size="100% 100%">
+    <h2>What is configuration?</h2>
+    <aside class="notes">
+        <ul>
+            <li>Let's start at the beginning</li>
+            <li>Millinium Falcon vs Starship Enterprise anecdote</li>
+        </ul>
+    </aside>
+</section>
+
+<!-- DRUPAL INSTALL -->
+<section data-background="media/d8-install.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <aside class="notes">
+        <ul>
+            <li>config is the very first thing you do</li>
+            <li>wordpress, joomla, drupal etc. it does not matter</li>
+            <li>it is almost ALWAYS stored in the "database"</li>
+            <li>in Drupal you are also "configuring" your site based on install profile</li>
+        </ul>
+    </aside>
+</section>
+
+<!-- WHAT IS CONFIGURATION? -->
+<section data-background="media/zig.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <h2>Configuration</h2>
+    <ul>
+        <li>Site name and email address</li>
+        <li class="fragment">Content types and fields</li>
+        <li class="fragment">Menu and Taxonomy settings</li>
+        <li class="fragment">Blocks/Block Layouts</li>
+        <li class="fragment">Permissions and roles</li>
+        <li class="fragment">View modes and layouts</li>
+        <li class="fragment">Views settings</li>
+        <li class="fragment">Active modules/module settings</li>
+        <li class="fragment">Everything in Structure and Configuration...</li>
+
+
+    </ul>
+    <aside class="notes">
+        <ul>
+            <li>there are lot of examples</li>
+            <li>as we will see later it becomes blurry</li>
+        </ul>
+    </aside>
+</section>
+
+<!-- WHAT IS CONFIGURATION? -->
+<section data-background="media/zig.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <ul>
+        <li>Config is distinct from your "content" (usually)</li>
+        <li class="fragment">Config is distinct from your "theme" (usually)</li>
+        <li  class="fragment">Config lives in your database (historically)</li>
+    </ul>
+    <aside class="notes">
+        <ul>
+            <li>...</li>
+        </ul>
+    </aside>
+</section>
+
+
+
+
+
+
+<!-- WHAT IS CONFIGURATION? -->
+<section data-background="media/zig.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <blockquote>"Configuration tells your site what to do, and how to act."</blockquote>
+
+    <aside class="notes">
+        <ul>
+            <li>Let's start at the beginning</li>
+            <li>Millinium Falcon vs Starship Enterprise anecdote</li>
+        </ul>
+    </aside>
+</section>
+
+<!-- WHY DO WE NEED TO MANAGE IT? -->
+<section data-background="media/zig.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <h2>Why do we need to manage it?</h2>
+    <aside class="notes">
+        <ul>
+            <li>Configuration management in the real world</li>
+            <li>Large enterprises/Oracle</li>
+            <li>implement repeatable and dependable processes</li>
+            <li>disaster recovery</li>
+        </ul>
+    </aside>
+</section>
+
+<!-- TECHNICALLY YOU DON'T -->
+<section data-background="media/no-config.jpg"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <aside class="notes">
+        <ul>
+            <li>Technically DON'T need to "manage" anything</li>
+            <li>This is mostly a new concept for CMS</li>
+            <li>We saw this in the UI and even in the docs</li>
+            <li>Single developer</li>
+            <li>Website in the cloud</li>
+            <li>Direct interaction with your configuration</li>
+            <li>Users: what you do is what they get, immediately</li>
+            <li>This very error prone</li>
+            <li>If you break anything, even during the simplest of changes it breaks for your users</li>
+            <li>Very good reason this is a bad idea</li>
+
+
+        </ul>
+    </aside>
+</section>
+
+<!-- BUT...THE REAL WORLD -->
+<section data-background="media/real-world.jpg"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <aside class="notes">
+        <ul>
+            <li>in the real world, things are more complex...</li>
+            <li>Your site is growing, more users</li>
+            <li>You probably have a "client" (or a boss)</li>
+            <li>You probably have some sort of a team</li>
+
+        </ul>
+    </aside>
+</section>
+
+<!-- = COMPLEXITY+EXPECTATIONS -->
+<section data-background="media/expectations.jpg"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <aside class="notes">
+        <ul>
+            <li>MORE complexity and HIGHER expectations</li>
+            <li>Things just can't "break"</li>
+            <li>People need to approve things before letting users see them</li>
+            <li>this will continue to grow as your project grows</li>
+            <li>there has to be a way to "manage all of this...</li>
+        </ul>
+    </aside>
+</section>
+
+<!-- HOW DO WE DO IT? -->
+<section data-background="media/zig.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <h2>How do we manage it?</h2>
+    <ul>
+        <li class="fragment">Local, Development, Staging, Production (drawing)</li>
+        <li class="fragment">Content freezes and code freezes (drawing) </li>
+        <li class="fragment">Use "Features/Strongarm" to move things around (drawing)</li>
+        <li class="fragment">Exportables and custom code (drawing)</li>
+    </ul>
+    <aside class="notes">
+        <ul>
+            <li>How do we manage all of this in the face of increasing complexity and increasing expectations?</li>
+
+        </ul>
+    </aside>
+</section>
+
+<!-- BUT IT SURE ISN'T PERFECT? -->
+<section data-background="media/zig.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <h2>Sounds great</h2>
+    but in fact it was very painful and difficult.
+
+
+
+    <aside class="notes">
+        <ul>
+            <li>We have mostly solved lots of previously very hard problems</li>
+            <li>and we do it better than most other CMS</li>
+            <li>but something is still very wrong.</li>
+            <li>Features are very slow and error prone</li>
+            <li>config is 30% faster, easily</li>
+            <li>Not everything can be Featurized</li>
+            <li>Conflicts, refusal to revert, client changes</li>
+            <li>Sometimes resort to double entry/config</li>
+            <li>"Code freezes" or "content freezes"</li>
+            <li>Spend half your life managing Features</li>
+        </ul>
+    </aside>
+</section>
+
+<!-- HOW TO SOLVE? -->
+<section data-background="media/dcon2011.jpg"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <aside class="notes">
+        <ul>
+            <li>State of Drupal (DrupalCon Chicago 2011)</li>
+            <li>Configuration Management Iniative</li>
+            <li>Names Greg Dunlap lead a few weeks later</li>
+            <li>All systems go</li>
+
+        </ul>
+    </aside>
+</section>
+
+<!-- DRUPALCON 2012
+<section data-background="media/zig.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <h2>Drupalcon <br />Denver 2012</h2>
+    <img src="media/heyrocker.jpg" height="50%" width="50%" />
+    <aside class="notes">
+        <ul>
+            <li>By DrupalCon Denver 2012 there was the first core commit</li>
+            <li>Conferencen rooms were packed, blogs were posted</li>
+            <li>Hundreds of people worked very hard over the next several years</li>
+            <li>Configuration Management module (core)</li>
+        </ul>
+    </aside>
+</section>
+ -->
