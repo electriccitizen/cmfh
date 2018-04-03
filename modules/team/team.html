@@ -2,30 +2,45 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2>Problem one: <br />The Team</h2>
-    <ul>
-        <li>Devel and Kint modules</li>
-        <li>UI modules</li>
-        <li>SAML modules (or other problem modules)</li>
-        <li>Multiple people working on similar things</li>
-        <li>Error prone/conflicts/dependencies</li>
-        <li>Certain doom</li>
-    </ul>
+    <h2 class="gold">The Team</h2>
     <aside class="notes">
         <ul>
-            <li>explain what goes wrong when:</li>
-            <li>Bad modules get deployed to PROD</li>
-            <li>Problem modules are deployed to LOCAL</li>
-            <li>Drupal core has no way to handle this</li>
+            <li>...</li>
         </ul>
     </aside>
 </section>
 
-<!-- TODAY -->
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2>How to solve?</h2>
+    <h2 class="gold">Expectations</h2>
+    <ul>
+        <li>Making changes and fixes should be easy</li>
+        <li>It should be dependable and repeatable</li>
+        <li>Deploys should be fearless</li>
+
+    </ul>
+
+
+    <aside class="notes">
+        <ul>
+            <li>...</li>
+        </ul>
+    </aside>
+</section>
+
+<section data-background="media/zig.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <h2 class="gold">Complications</h2>
+    <ul>
+        <li>Local only modules (Devel, Kint, UI)</li>
+        <li>Production only modules (SAML, Apache Solr)</li>
+        <li>Multiple people working on similar things</li>
+        <li>Dependency errors</li>
+        <li>Hot fixes</li>
+        <li>Lost work and certain doom</li>
+    </ul>
     <aside class="notes">
         <ul>
             <li>...</li>
@@ -37,7 +52,31 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2>1. Config Split module</h2>
+    <h2 class="gold">Solutions!</h2>
+    <aside class="notes">
+        <ul>
+            <li>...</li>
+        </ul>
+    </aside>
+</section>
+
+<!-- TODAY -->
+<section data-background="media/zig.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <h2 class="gold">1. Modules</h2>
+    <aside class="notes">
+        <ul>
+            <li>...</li>
+        </ul>
+    </aside>
+</section>
+
+<!-- TODAY -->
+<section data-background="media/config-split.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+
     <aside class="notes">
         <ul>
             <li>Allows you to "split" or filter config per environment</li>
@@ -47,11 +86,12 @@
     </aside>
 </section>
 
+
 <!-- TODAY -->
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2>[insert screencast]</h2>
+    <h2 class="gold">[insert screencast]</h2>
     <ul>
         <li>Demonstrate how Config Split works</li>
         <li>Do a local/dev split</li>
@@ -67,17 +107,34 @@
     </aside>
 </section>
 
+
 <!-- TODAY -->
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2>2. Team education</h2>
+    <h2 class="gold">other modules</h2>
+
+
+    <aside class="notes">
+        <ul>
+            <li>...</li>
+        </ul>
+
+    </aside>
+</section>
+
+
+<!-- TODAY -->
+<section data-background="media/zig.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <h2 class="gold">2. Team education</h2>
 
     <ul>
         <li>Make sure your team understands</li>
         <li>Get buy in</li>
-        <li>Learn to be mindful</li>
-        <li>Test your exports/imports</li>
+        <li>Be mindful</li>
+        <li>Document and follow</li>
     </ul>
 
     <aside class="notes">
@@ -91,11 +148,11 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2>3. Good workflow</h2>
+    <h2 class="gold">3. Good workflow</h2>
 
     <ul>
-        <li>Feature branches</li>
-        <li>Careful checks</li>
+        <li>Git branches</li>
+        <li>Safety checks/safety nets</li>
         <li>Continuous integration and testing</li>
     </ul>
 
@@ -106,20 +163,3 @@
     </aside>
 </section>
 
-<!-- TODAY -->
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <h2>[nsert screengrab]</h2>
-    <ul>
-        <li>Show config for teams drawing</li>
-        <li>expand on config for teams</li>
-    </ul>
-
-    <aside class="notes">
-        <ul>
-            <li>...</li>
-        </ul>
-
-    </aside>
-</section>

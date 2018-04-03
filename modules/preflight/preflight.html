@@ -4,63 +4,101 @@
     <h2 class="gold">What is configuration?</h2>
     <aside class="notes">
         <ul>
+            <li>Here is how we did it</li>
             <li>Let's start at the beginning</li>
             <li>Millinium Falcon vs Starship Enterprise anecdote</li>
         </ul>
     </aside>
 </section>
 
-<!-- DRUPAL INSTALL -->
+<!-- STEP ONE -->
 <section data-background="media/d8-install.png"
          data-background-size="100% 100%"
          data-background-color="#000">
     <aside class="notes">
         <ul>
-            <li>config is the very first thing you do</li>
+            <li>when installing a site, any site, config is the very first thing you do</li>
             <li>wordpress, joomla, drupal etc. it does not matter</li>
             <li>it is almost ALWAYS stored in the "database"</li>
-            <li>in Drupal you are also "configuring" your site based on install profile</li>
+            <li>in Drupal, you are also "configuring" your site based on your install profile</li>
         </ul>
     </aside>
 </section>
 
-<!-- WHAT IS CONFIGURATION? -->
-<section data-background="media/zig.png"
+<!-- STEP ONE -->
+<section
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">Configuration</h2>
-    <ul>
-        <li>Site name and email address</li>
-        <li >Content types and fields</li>
-        <li >Menu and Taxonomy settings</li>
-        <li >Blocks/Block Layouts</li>
-        <li >Permissions and roles</li>
-        <li >View modes and layouts</li>
-        <li >Views settings</li>
-        <li >Active modules/module settings</li>
-        <li >Everything in Structure and Configuration...</li>
+    <img src="media/config1.png" />
+    <aside class="notes">
+        <aside class="notes">
+            <ul>
+                <li>...</li>
+            </ul>
+        </aside>
+    </aside>
+</section>
 
-
-    </ul>
+<section
+        data-background-size="100% 100%"
+        data-background-color="#000">
+    <img src="media/config2.png" />
     <aside class="notes">
         <ul>
-            <li>there are lot of examples</li>
-            <li>as we will see later it becomes blurry</li>
+            <li>...</li>
         </ul>
     </aside>
 </section>
 
-<!-- WHAT IS CONFIGURATION? -->
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <blockquote class="gold" style="font-size: 1.2em;padding: 1em;">"Configuration tells your site what to do, and how to act."</blockquote>
+<section
+        data-background-size="100% 100%"
+        data-background-color="#000">
+    <img src="media/config3.png" />
+    <aside class="notes">
+        <ul>
+            <li>...</li>
+        </ul>
+    </aside>
+</section>
 
-    <ul>
-        <li>It is distinct from your content (usually)</li>
-        <li>It is distinct from your theme (usually)</li>
-        <li>It lives in your database (historically)</li>
-    </ul>
+<section
+        data-background-size="100% 100%"
+        data-background-color="#000">
+    <img src="media/config4.png" />
+    <aside class="notes">
+        <ul>
+            <li>...</li>
+        </ul>
+    </aside>
+</section>
+
+<section
+        data-background-size="100% 100%"
+        data-background-color="#000">
+    <img src="media/config5.png" />
+    <aside class="notes">
+        <ul>
+            <li>...</li>
+        </ul>
+    </aside>
+</section>
+
+<section
+        data-background-size="100% 100%"
+        data-background-color="#000">
+    <img src="media/config7.png" />
+    <aside class="notes">
+        <ul>
+            <li>...</li>
+        </ul>
+    </aside>
+</section>
+
+
+<section
+        data-background-size="100% 100%"
+        data-background-color="#000">
+    <img src="media/config6.png" />
     <aside class="notes">
         <ul>
             <li>...</li>
@@ -70,15 +108,32 @@
 
 
 
+<!-- WHAT IS CONFIGURATION? -->
+<section data-background="media/zig.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <h2 class="gold">Configuration...</h2>
+
+    <ul>
+        <div class="fragment">is distinct from your content (usually)</div>
+        <div class="fragment">is distinct from your theme (usually)</div>
+        <div class="fragment">is stored in your database (historically)</div>
+    </ul>
+    <aside class="notes">
+        <ul>
+            <li>...</li>
+        </ul>
+    </aside>
+</section>
 
 <!-- WHY DO WE NEED TO MANAGE IT? -->
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">Why do we need to manage it?</h2>
+    <h2 class="gold">Why do we want to manage it?</h2>
     <aside class="notes">
         <ul>
-            <li>Configuration management in the real world</li>
+            <li>this is an idea from the larger software world</li>
             <li>Large enterprises/Oracle</li>
             <li>implement repeatable and dependable processes</li>
             <li>disaster recovery</li>
@@ -93,22 +148,17 @@
     <aside class="notes">
         <ul>
             <li>Technically DON'T need to "manage" anything</li>
+            <li>Probably more than 90% or more websites manage their configuration</li>
             <li>This is mostly a new concept for CMS</li>
-            <li>We saw this in the UI and even in the docs</li>
-            <li>Single developer</li>
-            <li>Website in the cloud</li>
             <li>Direct interaction with your configuration</li>
             <li>Users: what you do is what they get, immediately</li>
-            <li>This very error prone</li>
-            <li>If you break anything, even during the simplest of changes it breaks for your users</li>
-            <li>Very good reason this is a bad idea</li>
-
+            <li>This sounds great, right?</li>
 
         </ul>
     </aside>
 </section>
 
-<!-- BUT...THE REAL WORLD -->
+<!-- BUT...IN THE REAL WORLD -->
 <section data-background="media/real-world.jpg"
          data-background-size="100% 100%"
          data-background-color="#000">
@@ -118,53 +168,109 @@
             <li>Your site is growing, more users</li>
             <li>You probably have a "client" (or a boss)</li>
             <li>You probably have some sort of a team</li>
-
-        </ul>
+            <li>This other model is very error prone</li>
+            <li>If you break anything, even during the simplest of changes it breaks for your users</li>
+            <li>Very good reason working right on a live site is a bad idea</li>
+   </ul>
     </aside>
 </section>
 
-<!-- = COMPLEXITY+EXPECTATIONS -->
-<section data-background="media/expectations.jpg"
+<!-- BUT...IN THE REAL WORLD -->
+<section data-background="media/real-world1.jpg"
          data-background-size="100% 100%"
          data-background-color="#000">
     <aside class="notes">
         <ul>
-            <li>MORE complexity and HIGHER expectations</li>
-            <li>Things just can't "break"</li>
-            <li>People need to approve things before letting users see them</li>
-            <li>this will continue to grow as your project grows</li>
-            <li>there has to be a way to "manage all of this...</li>
+            <li>from day one your site starts getting more complex</li>
+            <li>you are adding things, changing things, fixing things</li>
+            <li>more time = more complexity</li>
         </ul>
     </aside>
 </section>
+</section>
+
+<!-- BUT...IN THE REAL WORLD -->
+<section data-background="media/real-world2.jpg"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <aside class="notes">
+        <ul>
+            <li>your team wants it to be easy to make changes</li>
+            <li>your client wants to approve things before they go live</li>
+            <li>they don't want things to break</li>
+            <li>users expect stability</li>
+        </ul>
+    </aside>
+</section>
+
+
+
 
 <!-- HOW DO WE DO IT? -->
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">How do we manage all of this?</h2>
-    <ul>
-        <li class="fragment">Local, Development, Staging, Production (drawing)</li>
-        <li class="fragment">Content freezes and code freezes (drawing) </li>
-        <li class="fragment">Use "Features/Strongarm" to move things around (drawing)</li>
-        <li class="fragment">Exportables and custom code (drawing)</li>
-    </ul>
+    <h2 class="gold">Ok, how do we do this?</h2>
+
     <aside class="notes">
         <ul>
-            <li>How do we manage all of this in the face of increasing complexity and increasing expectations?</li>
-
         </ul>
     </aside>
 </section>
+
+<!-- HOW DO WE DO IT? -->
+<section data-background="media/workflow.jpg"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <aside class="notes">
+        <ul>
+            <li>...</li>
+        </ul>
+    </aside>
+</section>
+
+<!-- HOW DO WE DO IT? -->
+<section data-background="media/workflow2.jpg"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <aside class="notes">
+        <ul>
+            <li>...</li>
+        </ul>
+    </aside>
+</section>
+
+
+<!-- HOW DO WE DO IT? -->
+<section data-background="media/zig.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <h2 class="gold">Typical approaches</h2>
+    <ul>
+        <li>Content freezes</li>
+        <li>Code freezes</li>
+        <li>Features</li>
+        <li>Exportables and custom modules</li>
+    </ul>
+
+    <aside class="notes">
+        <ul>
+        </ul>
+    </aside>
+</section>
+
+
+
+
+
+
 
 <!-- BUT IT SURE ISN'T PERFECT? -->
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
     <h2 class="gold">Sounds great</h2>
-    but in fact it was very painful and difficult.
-
-
+    but in fact it is very painful and difficult.
 
     <aside class="notes">
         <ul>
@@ -178,6 +284,7 @@
             <li>Sometimes resort to double entry/config</li>
             <li>"Code freezes" or "content freezes"</li>
             <li>Spend half your life managing Features</li>
+            <li>So what are we going to do?</li>
         </ul>
     </aside>
 </section>
@@ -188,28 +295,11 @@
          data-background-color="#000">
     <aside class="notes">
         <ul>
-            <li>State of Drupal (DrupalCon Chicago 2011)</li>
-            <li>Configuration Management Iniative</li>
+            <li>It was not the only painful thing about D7</li>
+            <li>At DrupalCon Chicago 2011 everything changed</li>
             <li>Names Greg Dunlap lead a few weeks later</li>
             <li>All systems go</li>
 
         </ul>
     </aside>
 </section>
-
-<!-- DRUPALCON 2012
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <h2>Drupalcon <br />Denver 2012</h2>
-    <img src="media/heyrocker.jpg" height="50%" width="50%" />
-    <aside class="notes">
-        <ul>
-            <li>By DrupalCon Denver 2012 there was the first core commit</li>
-            <li>Conferencen rooms were packed, blogs were posted</li>
-            <li>Hundreds of people worked very hard over the next several years</li>
-            <li>Configuration Management module (core)</li>
-        </ul>
-    </aside>
-</section>
- -->

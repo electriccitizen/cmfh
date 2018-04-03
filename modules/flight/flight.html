@@ -3,11 +3,14 @@
          data-background-size="100% 100%"
          data-background-color="#000">
     <h2 class="gold">Training mission</h2>
-    Objective: Zero to Full Configuration
+   From zero to full configuration
 
     <aside class="notes">
         <ul>
-            <li>...</li>
+            <li>We assume you have a D8 site</li>
+            <li>along with a DEV site and LIVE site</li>
+            <li>it could be anywhere (local, Pantheon, Acquia, homegrown)</li>
+            <li>for our purpose we will assume a local site, and a DEV site on Pantheon</li>
         </ul>
 
     </aside>
@@ -17,28 +20,26 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2><span class="gold">But first, a word about Drush
-    and the cost of the entry.</span>
+    <h2 class="gold">Step one: Install Drupal</h2>
+    <ul>
+        <li>Install a local copy</li>
+        <li>Clone to the cloud <span class="gold">(or vice versa)</span></li>
+        <li>Use a Git-based workflow</span></li>
+        <li>Get into a 1:1 state</li>
+    </ul>
     <aside class="notes">
         <ul>
-            <li>Active config matches staged config EXACTLY</li>
+            <li>Complex but very flexible</li>
+            <li>this is the cost of entry</li>
         </ul>
 
     </aside>
 </section>
 
-
-
-<!-- BASIC CONCEPTS -->
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <h2><span class="gold">Step one:</span> Define <br />your config folder</h2>
-
-
+<section data-background-video="media/step1.mp4" data-background-video-loop data-background-video-muted>
     <aside class="notes">
         <ul>
-            <li>...</li>
+            <li>This could be any site, in any state</li>>
         </ul>
 
     </aside>
@@ -48,12 +49,39 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2>Settings.php</h2>
-
-                    <pre><code class="php">$config_directories[CONFIG_SYNC_DIRECTORY] = '../config/sync';
-                    </code></pre>
+    <h2 class="gold">Step two: Define your config folder</h2>
 
 
+    <aside class="notes">
+        <ul>
+            <li>The thrill of victory!</li>
+        </ul>
+
+    </aside>
+</section>
+
+<!-- BASIC CONCEPTS -->
+<section data-background="media/zig.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <h2 class="gold">Settings.php</h2>
+
+
+    <pre><code class="php">$config_directories[CONFIG_SYNC_DIRECTORY] = '../config/sync';</code></pre>
+
+    <aside class="notes">
+        <ul>
+            <li>Follow the docs (in this case)</li>
+        </ul>
+
+    </aside>
+</section>
+
+<!-- BASIC CONCEPTS -->
+<section data-background="media/zig.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <h2 class="gold">Step three: site building!</h2>
 
 
     <aside class="notes">
@@ -68,21 +96,7 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2><span class="gold">Step two:</span> Build</h2>
-
-    <aside class="notes">
-        <ul>
-            <li>...</li>
-        </ul>
-
-    </aside>
-</section>
-
-<!-- TODAY -->
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <h2>[insert screencast]</h2>
+    <h2 class="gold">[insert screencast]</h2>
     <ul>
         <li>Short screencast to show some simple changes</li>
         <li>Change site sitename, email</li>
@@ -101,11 +115,11 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2><span class="gold">Step three:</span> Export and deploy your changes </h2>
+    <h2 class="gold">Step four: export your configuration </h2>
 
     <aside class="notes">
         <ul>
-            <li>...</li>
+            <li>Normally we'd start making or updating Features here</li>
         </ul>
 
     </aside>
@@ -134,7 +148,7 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">[nsert screengrab]</h2>
+    <h2 class="gold">[insert screengrab]</h2>
     <ul>
         <li>Show all of the exported files</li>
         <li>Never touch these files</li>
@@ -174,7 +188,7 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">[nsert screengrab]</h2>
+    <h2 class="gold">[insert screengrab]</h2>
     <ul>
         <li>Show core.extension.yml</li>
         <li>Never touch these files</li>
@@ -190,14 +204,28 @@
     </aside>
 </section>
 
+<!-- TODAY -->
+<section data-background="media/zig.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <h2 class="gold">Step five: deploy your configuration </h2>
+
+    <aside class="notes">
+        <ul>
+            <li>...</li>
+        </ul>
+
+    </aside>
+</section>
+
 
 <!-- TODAY -->
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">Show 1:1 state graphic</h2>
+    <h2 class="gold">[insert screencast]</h2>
     <ul>
-        <li>Everything is cool</li>
+        <li>Show deploy back to Pantheon</li>
     </ul>
 
     <aside class="notes">
@@ -247,7 +275,7 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">Step four: Import your changes</h2>
+    <h2 class="gold">Step six: Import your changes</h2>
 
     <aside class="notes">
         <ul>
@@ -280,8 +308,8 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">Congratulations!</h2>
-    You now understand the basics of configuration management.
+    <h2 class="gold">Success</h2>
+    You now understand how to use configuration management.
 
     <aside class="notes">
         <ul>
