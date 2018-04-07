@@ -21,14 +21,24 @@
          data-background-size="100% 100%"
          data-background-color="#000">
     <h2 class="gold">Step 1: Install Drupal</h2>
-    <ul>
-        <li>Install a local copy</li>
-        <li>Clone to the cloud <span class="gold">(or vice versa)</span></li>
-        <li>Use Git</span></li>
-        <li>Use Drush</span></li>
-        <li>Use Composer</span></li>
-        <li>Get into a 1:1 state</li>
-    </ul>
+    <table>
+        <tr valign="top">
+            <td> <ul>
+                <li>Use Composer</span></li>
+                <li>Use Git</span></li>
+                <li>Use Drush</span></li>
+            </ul></td>
+            <td valign="width="100"></td>
+            <td class="fragment">
+                <ul>
+                    <li>Local copy</li>
+                    <li>Cloud copy <span class="gold">(<>)</span></li>
+                    <li>1:1 state</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
     <aside class="notes">
         <ul>
             <li>Complex but very flexible</li>
@@ -69,13 +79,23 @@
     <h2 class="gold">Settings.php</h2>
 
 
-    <pre><code class="php">$config_directories[CONFIG_SYNC_DIRECTORY] = '../config/sync';</code></pre>
 
-    <pre><code class="php">mkdir config/sync</code></pre>
-
+    <h4>mkdir config/sync</h4>
     <aside class="notes">
         <ul>
             <li>Follow the docs (in this case)</li>
+        </ul>
+
+    </aside>
+</section>
+
+<!-- BASIC CONCEPTS -->
+<section data-background="media/settingsphp.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <aside class="notes">
+        <ul>
+            <li>...</li>
         </ul>
 
     </aside>
@@ -96,7 +116,25 @@
     </aside>
 </section>
 
+<section data-background-video="media/exportui.mp4" data-background-video-muted>
+    <aside class="notes">
+        <ul>
+            <li>We COULD do it this way</li>>
+        </ul>
+
+    </aside>
+</section>
+
 <section data-background-video="media/cex.mp4" data-background-video-muted>
+    <aside class="notes">
+        <ul>
+            <li>But let's do it the "right" way instead</li>>
+        </ul>
+
+    </aside>
+</section>
+
+<section data-background-video="media/config-table.mp4" data-background-video-muted>
     <aside class="notes">
         <ul>
             <li>This could be any site, in any state</li>>
@@ -109,7 +147,7 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">Step 3: site building!</h2>
+    <h2 class="gold">Step 4: site building!</h2>
 
 
     <aside class="notes">
@@ -133,26 +171,7 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">[insert screencast]</h2>
-    <ul>
-        <li>Short screencast to show some simple changes</li>
-        <li>Change site sitename, email</li>
-        <li>Show some sample content types</li>
-    </ul>
-
-    <aside class="notes">
-        <ul>
-            <li>...</li>
-        </ul>
-
-    </aside>
-</section>
-
-<!-- TODAY -->
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <h2 class="gold">Step four: export your configuration </h2>
+    <h2 class="gold">Step 5: export (again)</h2>
 
     <aside class="notes">
         <ul>
@@ -162,90 +181,21 @@
     </aside>
 </section>
 
-<!-- TODAY -->
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <h2 class="gold">[insert screencast]</h2>
-    <ul>
-        <li>Short screencast to export process</li>
-        <li>Show tarball vs drush ex.</li>
-        <li>Choose a full export</li>
-    </ul>
-
+<section data-background-video="media/export2.mp4" data-background-video-muted>
     <aside class="notes">
         <ul>
-            <li>...</li>
+            <li>This could be any site, in any state</li>>
         </ul>
 
     </aside>
 </section>
 
-<!-- TODAY -->
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <h2 class="gold">[insert screengrab]</h2>
-    <ul>
-        <li>Show all of the exported files</li>
-        <li>Never touch these files</li>
-        <li>If you are something has gone wrong</li>
-        <li> of yaml files/config folder</li>
-    </ul>
-
-    <aside class="notes">
-        <ul>
-            <li>...</li>
-        </ul>
-
-    </aside>
-</section>
 
 <!-- TODAY -->
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">[nsert screengrab]</h2>
-    <ul>
-        <li>Show a single yml file</li>
-        <li>Never touch these files</li>
-        <li>If you are something has gone wrong</li>
-        <li> of yaml files/config folder</li>
-    </ul>
-
-    <aside class="notes">
-        <ul>
-            <li>...</li>
-        </ul>
-
-    </aside>
-</section>
-
-<!-- TODAY -->
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <h2 class="gold">[insert screengrab]</h2>
-    <ul>
-        <li>Show core.extension.yml</li>
-        <li>Never touch these files</li>
-        <li>If you are something has gone wrong</li>
-        <li> of yaml files/config folder</li>
-    </ul>
-
-    <aside class="notes">
-        <ul>
-            <li>...</li>
-        </ul>
-
-    </aside>
-</section>
-
-<!-- TODAY -->
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <h2 class="gold">Step five: deploy your configuration </h2>
+    <h2 class="gold">Step 6: deploy </h2>
 
     <aside class="notes">
         <ul>
@@ -312,7 +262,7 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">Step six: Import your changes</h2>
+    <h2 class="gold">Step 7: Import your changes</h2>
 
     <aside class="notes">
         <ul>
@@ -345,17 +295,12 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">Success</h2>
+    <h2 class="gold">Success!</h2>
     You now understand how to use configuration management.
 
     <aside class="notes">
         <ul>
             <li>This is all very cool</li>
-            <li>No features reverts</li>
-            <li>No thinking</li>
-            <li>It "just works" -- kind of a miracle</li>
-            <li>The more complex your config, the more impressive it gets</li>
-            <li>this was a super heroic effort</li>
         </ul>
 
     </aside>
@@ -371,9 +316,11 @@
 
     <ul>
         <li>> 30% time savings</li>
-        <li>Dont make me think</li>
+        <li>No Features reverts</li>
+        <li>No thinking</li>
         <li>Fail safe</li>
         <li>Almost no way to mess this up!</li>
+        <li>It "just works" -- kind of a miracle</li>
     </ul>
 
     <aside class="notes">
