@@ -3,13 +3,13 @@
          data-background-size="100% 100%"
          data-background-color="#000">
     <h2 class="gold">Congratulations!</h2>
-    Now you REALLY understand configuration management.
+    Now we REALLY understand configuration management, right?
 
 
 
     <aside class="notes">
         <ul>
-            <li>...</li>
+            <li>Well, kind of but it is not always smooth</li>
         </ul>
     </aside>
 </section>
@@ -21,8 +21,7 @@
          data-background-color="#000">
     <aside class="notes">
         <ul>
-            <li>All is not well</li>
-            <li>The sad reality is this is not the real world</li>
+            <li>But all is still not well</li>
         </ul>
     </aside>
 </section>
@@ -49,7 +48,22 @@
          data-background-size="100% 100%"
          data-background-color="#000">
     <blockquote>
-        <p>The staged configuration cannot be imported, because it originates from a different site than this site. You can only synchronize configuration between cloned instances of this site.</p>
+        The configuration cannot be imported because it failed validation for the following reasons:
+        <span class="gold">Configuration [SOMEHTHING].settings depends on the [WHATEVER] extension</span> that will not be installed after import.  </blockquote>
+
+    <aside class="notes">
+        <ul>
+            <li>...</li>
+        </ul>
+    </aside>
+</section>
+
+<!-- TROUBLE -->
+<section data-background="media/zig.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <blockquote>
+        <p>The staged configuration cannot be imported, <span class="gold">because it originates from a different site than this site.</span> You can only synchronize configuration between cloned instances of this site.</p>
     </blockquote>
 
     <aside class="notes">
@@ -60,28 +74,13 @@
 </section>
 
 
-<!-- TROUBLE -->
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <blockquote>
-        The configuration cannot be imported because it failed validation for the following reasons:
-        Configuration [SOMEHTHING].settings depends on the [WHATEVER] extension that will not be installed after import.  </blockquote>
-
-    <aside class="notes">
-        <ul>
-            <li>...</li>
-        </ul>
-    </aside>
-</section>
-
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
     <blockquote>
         The import failed due for the following reasons:
-        Unable to install the [WHATEVER] module since it requires the [SOME OTHER] module.
-        </blockquote>
+        <span class="gold">Unable to install the [WHATEVER] module since it requires the [SOME OTHER] module.</span>
+    </blockquote>
 
     <aside class="notes">
         <ul>
@@ -94,11 +93,11 @@
          data-background-size="100% 100%"
          data-background-color="#000">
     <h2 class="gold">Other problems</h2>
-  <ul>
-      <li>key_value store problems</li>
-      <li>left over active config from a bad install</li>
-      <li>unexpected or unexplained changes</li>
-  </ul>
+    <ul>
+        <li>key_value store problems</li>
+        <li>left over active config from a bad uninstall</li>
+        <li>unexpected or unexplained changes or errors</li>
+    </ul>
 
     <aside class="notes">
         <ul>
@@ -112,7 +111,7 @@
          data-background-size="100% 100%"
          data-background-color="#000">
     <h2 class="gold">Secret weapons</h2>
-   Some common troubleshooting techniques to get you out of the woods
+    Some common troubleshooting techniques to get you out of the woods
 
     <aside class="notes">
         <ul>
@@ -124,59 +123,11 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">Learn Drush</h2>
-    List obscure but helpful commands...
+    <h2 class="gold">Learn to read and understand your errors</h2>
+    They usually tell you EXACTLY what is wrong (but not necessarily how to fix)
     <aside class="notes">
         <ul>
-            <li>...</li>
-        </ul>
-    </aside>
-</section>
-
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-  <ul>
-      <li>drush config-export (cex)</li>
-      <li>drush config-import (cim)</li>
-      <li>drush config-delete</li>
-  </ul>
-
-    <ul>
-
-        <li>drush config-edit</li>
-        <li>drush config-get</li>
-        <li>drush config-list</li>
-        <li>drush config-pull</li>
-        <li>drush config-set</li>
-    </ul>
-
-
-    <aside class="notes">
-        <ul>
-            <li>...</li>
-        </ul>
-    </aside>
-</section>
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <h2 class="gold">Learn to use the UI</h2>
-    Even though Drush gets the work down the UI will provides helpful information
-    <aside class="notes">
-        <ul>
-            <li>...</li>
-        </ul>
-    </aside>
-</section>
-
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <h2 class="gold">Just say no to -y</h2>
-    <aside class="notes">
-        <ul>
-            <li>...</li>
+            <li>debugging 101 -- learn how to follow the trails</li>
         </ul>
     </aside>
 </section>
@@ -185,7 +136,20 @@
          data-background-size="100% 100%"
          data-background-color="#000">
     <h2 class="gold">Learn your YAML files</h2>
-    Edit them if necessary
+    Get to know which files are controlling what, and how to edit them in a pinch
+    <aside class="notes">
+        <ul>
+            <li>...</li>
+        </ul>
+    </aside>
+</section>
+
+
+<section data-background="media/zig.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <h2 class="gold">Learn to search your database</h2>
+    Sometimes a DB search on a specific config element can uncover blockers (e.g. key_value)
     <aside class="notes">
         <ul>
             <li>...</li>
@@ -196,15 +160,20 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">Learn to search your database</h2>
-
-    e.g. drush config-delete or a db search
+    <h2 class="gold">Don't forget the UI</h2>
+    Even though Drush gets the work done, the UI can provide helpful information
     <aside class="notes">
         <ul>
             <li>...</li>
         </ul>
     </aside>
 </section>
+
+
+
+
+
+
 
 
 

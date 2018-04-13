@@ -5,21 +5,14 @@
     <h2 class="gold">Today</h2>
     <ul>
         <li>Drupal 8 is almost 2.5 years old</li>
-        <li>It is SPECTACULAR (but uptake is slow)</li>
         <li>It is evolving in front of our eyes</li>
         <li>People are still confused</li>
-        <li>Nobody knows how (or why) to use configuration</li>
-
-
-
-
+        <li>Many don't know how (or why) to use configuration</li>
     </ul>
-
 
     <aside class="notes">
         <ul>
-            <li>CSE story</li>
-            <li>The rest of this session is devoted to figuring it out</li>
+            <li>Let's figure out how this works...</li>
         </ul>
 
     </aside>
@@ -29,15 +22,16 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">Ok, so how does it work?</h2>
+    <h2 class="gold">ELI5</h2>
+    Explain it like I'm five
     <aside class="notes">
         <ul>
-            <li>this is why we are here</li>
+            <li>Before I show some working demos I want to attempt a high level overview of what is really happening behind the scenes </li>
+            <li>Don't worry if it isn't entirely clear after this...</li>
+
         </ul>
     </aside>
 </section>
-
-
 
 <!-- CONFIG 101 -->
 <section data-background="media/101a.jpg"
@@ -45,7 +39,9 @@
          data-background-color="#000">
     <aside class="notes">
         <ul>
-            <li>...</li>
+            <li>On day zero there is no "configuration management"</li>
+            <li>Everything you add or build is stored in your database</li>
+            <li>It is your "active" configuration and is what all of your users will see when they visit the site</li>
         </ul>
     </aside>
 </section>
@@ -56,7 +52,9 @@
          data-background-color="#000">
     <aside class="notes">
         <ul>
-            <li>active config is a lie</li>
+            <li>To "activate" configuration management your first step is export your "active" configuration to code</li>
+            <li>The first time you do this, everything is in a 1:1 state</li>
+            <li>Your "active" config in the database matches your exported config EXACTLY</li>
         </ul>
     </aside>
 </section>
@@ -67,7 +65,8 @@
          data-background-color="#000">
     <aside class="notes">
         <ul>
-            <li>staged config is "the truth"</li>
+            <li>Your configuration is now in code, and now your team can "import" this configuration to their own local machines</li>
+            <li>Now they have a local copy of the site that also matches the production copy exactly</li>
         </ul>
     </aside>
 </section>
@@ -78,7 +77,8 @@
          data-background-color="#000">
     <aside class="notes">
         <ul>
-            <li>staged config is "the truth"</li>
+            <li>This where the fun stuff happens...the whole point of this is to be able to make and push changes or new features</li>
+            <li>Starting on local copy of the site that matches the production site is the first step to make this happen</li>
         </ul>
     </aside>
 </section>
@@ -89,7 +89,8 @@
          data-background-color="#000">
     <aside class="notes">
         <ul>
-            <li>staged config is "the truth"</li>
+            <li>Once you start making changes or add new features, YOUR active configuration no longer matches the active configuration on production</li>
+            <li>So your next step is to EXPORT your new active configuration back to code</li>
         </ul>
     </aside>
 </section>
@@ -100,7 +101,9 @@
          data-background-color="#000">
     <aside class="notes">
         <ul>
-            <li>staged config is "the truth"</li>
+            <li>Now that your configuration is exported to code, you can IMPORT it to any environment</li>
+            <li>After import, it has replaced the old configuration is now your "active" configuration</li>
+            <li>Assuming this is a staging server, your clients can now log on to see all of the great changes you have made</li>
         </ul>
     </aside>
 </section>
@@ -111,7 +114,8 @@
          data-background-color="#000">
     <aside class="notes">
         <ul>
-            <li>staged config is "the truth"</li>
+            <li>Assuming everybody is happy with the changes, you can now IMPORT them again to your production server</li>
+            <li>Now your new changes are part of the "active" configuration and your users will also be able to see your changes</li>
         </ul>
     </aside>
 </section>
@@ -122,36 +126,8 @@
          data-background-color="#000">
     <aside class="notes">
         <ul>
-            <li>If you are still confused it is okay</li>
-            <li>but if you can grasp and embrace these basic concepts you are step ahead of most</li>
+            <li>That was a high level and kind of conceptual overview -- if you are still confused it is okay</li>
+            <li>Let's run through a working demo to see how it really works</li>
         </ul>
     </aside>
 </section>
-
-
-
-
-
-<!-- BASIC CONCEPTS
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <h2>Recap</h2>
-    <ul>
-        <li>Your "active" config lives in the database</li>
-        <li>It never "goes away"</li>
-        <li>You can export your active configuration to code</li>
-        <li>You can change your and import any changes to your configuration</li>
-        <li>Those changes will then become your "active" configuration</li>
-    </ul>
-
-    <aside class="notes">
-        <ul>
-            <li>The config table</li>
-            <li>* other types of "config" that don't matter here</li>
-        </ul>
-
-    </aside>
-</section>
-
--->

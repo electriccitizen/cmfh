@@ -4,9 +4,8 @@
     <h2 class="gold">What is configuration?</h2>
     <aside class="notes">
         <ul>
-            <li>Here is how we did it</li>
-            <li>Let's start at the beginning</li>
-            <li>Millinium Falcon vs Starship Enterprise anecdote</li>
+            <li>The rest of this session is about how this all actually works and how you can use configuration management effectively</li>
+            <li>Let's start at the beginning....</li>
         </ul>
     </aside>
 </section>
@@ -106,8 +105,6 @@
     </aside>
 </section>
 
-
-
 <!-- WHAT IS CONFIGURATION? -->
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
@@ -118,6 +115,7 @@
         <div>is distinct from your content <span class="gold">(usually)</span></div>
         <div class="fragment">is distinct from your theme <span class="gold">(kind of)</span></div>
         <div class="fragment">is stored in your database <span class="gold">(historically)</span></div>
+
     </ul>
     <aside class="notes">
         <ul>
@@ -133,10 +131,8 @@
     <h2 class="gold">Why do we want to manage it?</h2>
     <aside class="notes">
         <ul>
-            <li>this is an idea from the larger software world</li>
-            <li>Large enterprises/Oracle</li>
-            <li>implement repeatable and dependable processes</li>
-            <li>disaster recovery</li>
+            <li>This is an ancient problem from the larger software world</li>
+            <li>How do we implement repeatable and dependable processes to make changes and updates?</li>
         </ul>
     </aside>
 </section>
@@ -147,12 +143,12 @@
          data-background-color="#000">
     <aside class="notes">
         <ul>
-            <li>Technically DON'T need to "manage" anything</li>
-            <li>Probably more than 90% or more websites manage their configuration</li>
-            <li>This is mostly a new concept for CMS</li>
-            <li>Direct interaction with your configuration</li>
+            <li>Technically, you DON'T need to "manage" anything</li>
+            <li>In fact, it is safe to say that MOST websites in existence aren't "managing" their configuration</li>
+            <li>Most people just make changes right on a production site, or manually upload new copies of a database</li>
             <li>Users: what you do is what they get, immediately</li>
-            <li>This sounds great, right?</li>
+            <li>This idea of managing configuration is mostly a new concept for CMS</li>
+            <li>But it sounds great, right?</li>
 
         </ul>
     </aside>
@@ -181,12 +177,14 @@
          data-background-color="#000">
     <aside class="notes">
         <ul>
-            <li>from day one your site starts getting more complex</li>
-            <li>you are adding things, changing things, fixing things</li>
-            <li>more time = more complexity</li>
+            <li>your team wants it to be easy to make changes</li>
+            <li>your client wants to approve things before they go live</li>
+            <li>they don't want things to break</li>
+            <li>they don't want downtime or content freezes</li>
+            <li>over time, these expectations tend to grow</li>
+
         </ul>
     </aside>
-</section>
 </section>
 
 <!-- BUT...IN THE REAL WORLD -->
@@ -195,25 +193,25 @@
          data-background-color="#000">
     <aside class="notes">
         <ul>
-            <li>your team wants it to be easy to make changes</li>
-            <li>your client wants to approve things before they go live</li>
-            <li>they don't want things to break</li>
-            <li>users expect stability</li>
+            <li>and then there is complexity...</li>
+            <li>from day one, your site starts getting more complex</li>
+            <li>you are adding things, changing things, fixing things</li>
+            <li>more time = more complexity</li>
         </ul>
     </aside>
+
 </section>
-
-
-
 
 <!-- HOW DO WE DO IT? -->
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">Ok, how do we do this?</h2>
+    <h2 class="gold">Ok, so HOW do we do manage it?</h2>
 
     <aside class="notes">
         <ul>
+            <li>we know what configuration is and why need to manage it</li>
+            <li>how it is typically managed?</li>
         </ul>
     </aside>
 </section>
@@ -224,22 +222,10 @@
          data-background-color="#000">
     <aside class="notes">
         <ul>
-            <li>...</li>
+            <li>historically, setting up a testing or staging server is step one</li>
         </ul>
     </aside>
 </section>
-
-<!-- HOW DO WE DO IT? -->
-<section data-background="media/workflow-why.jpg"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <aside class="notes">
-        <ul>
-            <li>...</li>
-        </ul>
-    </aside>
-</section>
-
 
 <!-- HOW DO WE DO IT? -->
 <section data-background="media/workflow2.jpg"
@@ -247,7 +233,8 @@
          data-background-color="#000">
     <aside class="notes">
         <ul>
-            <li>...</li>
+            <li>But this alone doesn't really solve anything</li>
+            <li>We still have no good way of deploying changes from environment to another</li>
         </ul>
     </aside>
 </section>
@@ -267,36 +254,26 @@
 
     <aside class="notes">
         <ul>
+            <li>This is how most people on most content management systems handle these things...</li>
         </ul>
     </aside>
 </section>
-
-
-
-
-
-
 
 <!-- BUT IT SURE ISN'T PERFECT? -->
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
     <h2 class="gold">Sounds great</h2>
-    but in fact it is very painful and difficult.
+    but in fact this is very painful and difficult.
 
     <aside class="notes">
         <ul>
-            <li>We have mostly solved lots of previously very hard problems</li>
-            <li>and we do it better than most other CMS</li>
-            <li>but something is still very wrong.</li>
-            <li>Features are very slow and error prone</li>
-            <li>config is 30% faster, easily</li>
+            <li>Features are great but being misused</li>
+            <li>Can be very slow and error prone to build and manage</li>
             <li>Not everything can be Featurized</li>
-            <li>Conflicts, refusal to revert, client changes</li>
-            <li>Sometimes resort to double entry/config</li>
-            <li>"Code freezes" or "content freezes"</li>
-            <li>Spend half your life managing Features</li>
-            <li>So what are we going to do?</li>
+            <li>Conflicts, refusal to revert, overridden status on prod</li>
+            <li>Sometimes it felt like half of teams life was devoted to simply fighting with Features</li>
+            <li>So can we fix this?</li>
         </ul>
     </aside>
 </section>
@@ -307,11 +284,10 @@
          data-background-color="#000">
     <aside class="notes">
         <ul>
-            <li>It was not the only painful thing about D7</li>
-            <li>At DrupalCon Chicago 2011 everything changed</li>
-            <li>Names Greg Dunlap lead a few weeks later</li>
-            <li>All systems go</li>
-
+            <li>Most of this address was focused on the difficult problems surrounding D7</li>
+            <li>Dries announced a number of new initiatives for D8 in hopes of making things easier and better</li>
+            <li>Managing configuration was identified as one of the top pain points and it was the first intiative</li>
+            <li>He named Greg Dunlap the CMI lead a few weeks later and by DrupalCon Denver in 2012 the first iteration had been committed to Drupal 8 core</li>
         </ul>
     </aside>
 </section>

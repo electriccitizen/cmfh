@@ -16,12 +16,10 @@
     <h2 class="gold">Expectations</h2>
     <ul>
         <li>Making changes and fixes should be easy</li>
-        <li>It should be dependable and repeatable</li>
-        <li>Deploys should be fearless</li>
-
+        <li>We should be able to work in parallel</li>
+        <li>Our process should be dependable and repeatable</li>
+        <li>Deploys should be easy and fearless</li>
     </ul>
-
-
     <aside class="notes">
         <ul>
             <li>...</li>
@@ -37,8 +35,7 @@
         <li>Local only modules (Devel, Kint, UI)</li>
         <li>Production only modules (SAML, Apache Solr)</li>
         <li>Multiple people working on similar things</li>
-        <li>Dependency errors</li>
-        <li>Hot fixes</li>
+        <li>And often at the same time</li>
         <li>Lost work and certain doom</li>
     </ul>
     <aside class="notes">
@@ -52,10 +49,10 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">Solutions!</h2>
+    <h2 class="gold">How to solve?</h2>
     <aside class="notes">
         <ul>
-            <li>...</li>
+            <li>Everybody is still figuring this out but there are some common solutions</li>
         </ul>
     </aside>
 </section>
@@ -64,10 +61,10 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">1. Modules</h2>
+    <h2 class="gold">1. Contrib modules</h2>
     <aside class="notes">
         <ul>
-            <li>...</li>
+            <li>There is a large and growing ecosystem of contrib modules to help fill in the gaps</li>
         </ul>
     </aside>
 </section>
@@ -76,60 +73,66 @@
 <section data-background="media/config-split.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-
     <aside class="notes">
         <ul>
-            <li>Allows you to "split" or filter config per environment</li>
-            <li>It is pretty much essential</li>
-            <li>This should be in core</li>
+            <li>The config split modules is one of the most common and widely used right now</li>
+            <li>It allows you to "split" or filter config per environment</li>
+            <li>This means you can have Devel or other modules running locally, but not on production</li>
+            <li>It is a pretty essential concept and some form of this will likely appear in core at some point</li>
         </ul>
     </aside>
 </section>
-
 
 <!-- TODAY -->
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">[insert screencast]</h2>
+    <h2 class="gold">Other modules</h2>
+
+    There is a growing ecosystem of contributed config modules to solve common problems, e.g.
+
     <ul>
-        <li>Demonstrate how Config Split works</li>
-        <li>Do a local/dev split</li>
-        <li>Show a split import/live site difference</li>
-        <li>You can now have "different" configuration depending on your needs</li>
+        <li>Config Ignore</li>
+        <li>Config Actions/Config Templates</li>
+        <li>Lots of others</li>
     </ul>
 
+
+
+
     <aside class="notes">
         <ul>
-            <li>...</li>
+            <li>Many of these have very few users right now</li>
+            <li>Some are pretty obscure</li>
+            <li>I will share a longer list later on</li>
+        </ul>
+
+    </aside>
+</section>
+
+<!-- TODAY -->
+<section data-background="media/zig.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <h2 class="gold">2. Git</h2>
+    Version control to the rescue
+    <aside class="notes">
+        <ul>
+            <li>The whole point of putting config in code is that it can version controlled</li>
+            <li>You can roll back and save yourself when needed</li>
+            <li>In 2018 it simply doesn't make sense to manage your site with tarballs</li>
         </ul>
 
     </aside>
 </section>
 
 
-<!-- TODAY -->
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <h2 class="gold">other modules</h2>
-
-
-    <aside class="notes">
-        <ul>
-            <li>...</li>
-        </ul>
-
-    </aside>
-</section>
-
 
 <!-- TODAY -->
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">2. Team education</h2>
-
+    <h2 class="gold">3. Team education</h2>
     <ul>
         <li>Make sure your team understands</li>
         <li>Get buy in</li>
@@ -148,14 +151,13 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">3. Good workflow</h2>
+    <h2 class="gold">4. Good workflow</h2>
 
     <ul>
-        <li>Git branches</li>
-        <li>Safety checks/safety nets</li>
+        <li>Git branches and git workflow (e.g Git flow)</li>
+        <li>Safety checks/safety nets/good processes</li>
         <li>Continuous integration and testing</li>
     </ul>
-
     <aside class="notes">
         <ul>
             <li>...</li>

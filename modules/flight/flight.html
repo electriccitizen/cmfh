@@ -4,15 +4,11 @@
          data-background-color="#000">
     <h2 class="gold">LEVEL ONE</h2>
    Zero to full configuration
-
     <aside class="notes">
         <ul>
-            <li>We assume you have a D8 site</li>
-            <li>along with a DEV site and LIVE site</li>
-            <li>it could be anywhere (local, Pantheon, Acquia, homegrown)</li>
-            <li>for our purpose we will assume a local site, and a DEV site on Pantheon</li>
+           <li>We are going to show how to take a site from NO configuration management to full configuration management</li>
+            <li>For the purposes of this demo we are going to start fresh with new Drupal install, but the same principles would apply to an already active site</li>
         </ul>
-
     </aside>
 </section>
 
@@ -24,11 +20,11 @@
     <table>
         <tr valign="top">
             <td> <ul>
-                <li>Use Composer</span></li>
-                <li>Use Git</span></li>
-                <li>Use Drush</span></li>
+                <li>Use Composer</li>
+                <li>Use Git</li>
+                <li>Use Drush</li>
             </ul></td>
-            <td valign="width="100"></td>
+
             <td class="fragment">
                 <ul>
                     <li>Local copy</li>
@@ -41,19 +37,18 @@
 
     <aside class="notes">
         <ul>
-            <li>Complex but very flexible</li>
             <li>this is the cost of entry</li>
+            <li>it could be anywhere (local, Pantheon, Acquia, homegrown)</li>
+            <li>for our purpose we will assume a local site and a DEV site on Pantheon</li>
         </ul>
-
     </aside>
 </section>
 
 <section data-background-video="media/step1.mp4" data-background-video-muted>
     <aside class="notes">
         <ul>
-            <li>This could be any site, in any state</li>>
+            <li>This could be any site, in any state</li>
         </ul>
-
     </aside>
 </section>
 
@@ -62,13 +57,11 @@
          data-background-size="100% 100%"
          data-background-color="#000">
     <h2 class="gold">Step 2: Define your config folder</h2>
-
-
     <aside class="notes">
         <ul>
-            <li>The thrill of victory!</li>
+            <li>You don't technically need to do this, but you really should</li>
+            <li>A small victory that makes you feel empowered</li>
         </ul>
-
     </aside>
 </section>
 
@@ -77,15 +70,13 @@
          data-background-size="100% 100%"
          data-background-color="#000">
     <h2 class="gold">Settings.php</h2>
-
-
-
     <h4>mkdir config/sync</h4>
     <aside class="notes">
         <ul>
-            <li>Follow the docs (in this case)</li>
+            <li>Your first step is to create a folder where you will store your configuration files</li>
+            <li>Ideally this is out of your webroot, but it does not have to be...</li>
+            <li>e.g. pantheon defaults to sites/default/config</li>
         </ul>
-
     </aside>
 </section>
 
@@ -107,10 +98,9 @@
          data-background-color="#000">
     <h2 class="gold">Step 3: export</h2>
 
-
     <aside class="notes">
         <ul>
-            <li>...</li>
+            <li>the configuration system does not take effect until you do this step</li>
         </ul>
 
     </aside>
@@ -119,27 +109,25 @@
 <section data-background-video="media/exportui.mp4" data-background-video-muted>
     <aside class="notes">
         <ul>
-            <li>We COULD do it this way</li>>
+            <li>Download a tarball</li>
+            <li>We COULD do it this way</li>
         </ul>
-
     </aside>
 </section>
 
 <section data-background-video="media/cex.mp4" data-background-video-muted>
     <aside class="notes">
         <ul>
-            <li>But let's do it the "right" way instead</li>>
+            <li>But let's do it the "right" way instead</li>
         </ul>
-
     </aside>
 </section>
 
 <section data-background-video="media/config-table.mp4" data-background-video-muted>
     <aside class="notes">
         <ul>
-            <li>This could be any site, in any state</li>>
+            <li>This could be any site, in any state</li>
         </ul>
-
     </aside>
 </section>
 
@@ -148,11 +136,10 @@
          data-background-size="100% 100%"
          data-background-color="#000">
     <h2 class="gold">Step 4: site building!</h2>
-
-
     <aside class="notes">
         <ul>
-            <li>...</li>
+            <li>This is why we are here, right?</li>
+            <li>To get "work" done and to accomplish change</li>
         </ul>
 
     </aside>
@@ -161,9 +148,9 @@
 <section data-background-video="media/build.mp4" data-background-video-muted>
     <aside class="notes">
         <ul>
-            <li>This could be any site, in any state</li>>
+            <li>at end: this is very simple demonstration on quickly things can wrong if you do not understand how this works</li>
+            <li>let's fix this and try again</li>
         </ul>
-
     </aside>
 </section>
 
@@ -172,19 +159,17 @@
          data-background-size="100% 100%"
          data-background-color="#000">
     <h2 class="gold">Step 5: export (again)</h2>
-
     <aside class="notes">
         <ul>
             <li>Normally we'd start making or updating Features here</li>
         </ul>
-
     </aside>
 </section>
 
 <section data-background-video="media/export2.mp4" data-background-video-muted>
     <aside class="notes">
         <ul>
-            <li>This could be any site, in any state</li>>
+            <li>...</li>
         </ul>
 
     </aside>
@@ -199,22 +184,14 @@
 
     <aside class="notes">
         <ul>
-            <li>...</li>
+            <li>Now we need to get changes from "here" to "there"</li>
         </ul>
 
     </aside>
 </section>
 
 
-<!-- TODAY -->
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <h2 class="gold">[insert screencast]</h2>
-    <ul>
-        <li>Show deploy back to Pantheon</li>
-    </ul>
-
+<section data-background-video="media/deploy.mp4" data-background-video-muted>
     <aside class="notes">
         <ul>
             <li>...</li>
@@ -222,108 +199,84 @@
 
     </aside>
 </section>
-
-
 
 <!-- TODAY -->
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
     <h2 class="gold">Check your changes!</h2>
-
     <aside class="notes">
         <ul>
             <li>...</li>
         </ul>
-
     </aside>
 </section>
+
+<section data-background-video="media/review.mp4" data-background-video-muted>
+    <aside class="notes">
+        <ul>
+            <li>None of your changes have appeared!</li>
+            <li>Why??</li>
+        </ul>
+    </aside>
+</section>
+
 
 <!-- TODAY -->
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">[insert screencast]</h2>
-    <ul>
-        <li>None of your changes have appeared!</li>
-        <li>Why??</li>
-        <li>Aha, we need to IMPORT</li>
-    </ul>
+    <h2 class="gold">Step 7: IMPORT your changes</h2>
+
+
 
     <aside class="notes">
         <ul>
-            <li>...</li>
+            <li>doh</li>
         </ul>
 
     </aside>
 </section>
 
-<!-- TODAY -->
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <h2 class="gold">Step 7: Import your changes</h2>
-
+<section data-background-video="media/finalimport.mp4" data-background-video-muted>
     <aside class="notes">
         <ul>
             <li>...</li>
         </ul>
-
     </aside>
 </section>
 
-<!-- TODAY -->
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <h2 class="gold">[insert screencast]</h2>
-    <ul>
-        <li>Do the actual import</li>
-        <li>Now it works!</li>
-        <li>Your "active" configuration now matches your "staged" configuration exactly.</li>
-    </ul>
-
+<!--
+<section data-background-video="media/reviewchange.mp4" data-background-video-muted>
     <aside class="notes">
         <ul>
-            <li>...</li>
+            <li>Now it works!</li>
+            <li>Your "active" configuration now matches your "staged" configuration exactly.</li>
         </ul>
-
     </aside>
 </section>
-
+-->
 <!-- TODAY -->
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
     <h2 class="gold">Success!</h2>
-    You now understand how to use configuration management.
 
-    <aside class="notes">
-        <ul>
-            <li>This is all very cool</li>
-        </ul>
-
-    </aside>
-</section>
-
-
-
-<!-- TODAY -->
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <h2 class="gold">This is magic</h2>
 
     <ul>
-        <li>> 30% time savings</li>
-        <li>No Features reverts</li>
+        <li>This is magic</li>
         <li>No thinking</li>
-        <li>Fail safe</li>
-        <li>Almost no way to mess this up!</li>
-        <li>It "just works" -- kind of a miracle</li>
+        <li>No Features madness and reverts</li>
+        <li>30% time savings?</li>
+        <li>Almost no way to mess this up</li>
+        <li>It "just works"</li>
     </ul>
 
     <aside class="notes">
+        <ul>
+            <li>You now understand how to use configuration management.</li>
+            <li>Right?</li>
+        </ul>
 
     </aside>
 </section>

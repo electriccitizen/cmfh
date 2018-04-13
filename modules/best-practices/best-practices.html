@@ -2,47 +2,10 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">Recommended workflow</h2>
+    <h2 class="gold">Best practices</h2>
     <aside class="notes">
         <ul>
-            <li>...</li>
-        </ul>
-    </aside>
-</section>
-
-<!-- BEST PRACTICES -->
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <h2 class="gold">Most sites should be using configurmation management</h2>
-    <aside class="notes">
-        <ul>
-            <li>...</li>
-        </ul>
-    </aside>
-</section>
-
-
-<!-- BEST PRACTICES -->
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <h2 class="gold">Use full configuration exports</h2>
-    <aside class="notes">
-        <ul>
-            <li>...</li>
-        </ul>
-    </aside>
-</section>
-
-<!-- BEST PRACTICES -->
-<section
-         data-background-size="100% 100%"
-         data-background-color="#fff">
-    <img src="media/tift.png" />
-    <aside class="notes">
-        <ul>
-            <li>...</li>
+            <li>Here is a start on some basic best practices...</li>
         </ul>
     </aside>
 </section>
@@ -52,26 +15,29 @@
          data-background-size="100% 100%"
          data-background-color="#000">
     <h2 class="gold">Start on a solid foundation</h2>
+    <ul>
+        <li>A good site install (Composer)</li>
+        <li>A good local environment setup</li>
+        <li>A solid, easy-to-work with hosting platform</li>
+    </ul>
     <aside class="notes">
-        <ul>
-            <li>...</li>
-        </ul>
+
     </aside>
 </section>
-
 
 <!-- BEST PRACTICES -->
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">Develop a solid workflow</h2>
+    <h2 class="gold">Use full configuration exports</h2>
+    <ul>
+        <li>No reason to mess around with anything else</li>
+        <li>Start from day zero</li>
+        <li>IMO this SHOULD be the officially "recommended" workflow</li>
+    </ul>
     <aside class="notes">
-        <ul>
-            <li>...</li>
-        </ul>
     </aside>
 </section>
-
 
 
 
@@ -80,9 +46,12 @@
          data-background-size="100% 100%"
          data-background-color="#000">
     <h2 class="gold">Use version control</h2>
+    <ul>
+        <li>Without git or some kind of version control there is no good way to rollback or recover</li>
+    </ul>
     <aside class="notes">
         <ul>
-            <li>...</li>
+            <li>Without git or some kind of version control there is no good way to rollback or recover</li>
         </ul>
     </aside>
 </section>
@@ -91,11 +60,14 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">Embrace drush</h2>
+    <h2 class="gold">Start simple (stay simple)</h2>
+    <ul>
+        <li>Don't do things or use modules you don't actually need</li>
+        <li>e.g. config_split overboard</li>
+        <li>The system is designed to be SIMPLE</li>
+    </ul>
     <aside class="notes">
-        <ul>
-            <li>...</li>
-        </ul>
+
     </aside>
 </section>
 
@@ -103,46 +75,58 @@
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">Start simple</h2>
+    <h2 class="gold">Develop and document a solid workflow</h2>
+    <ul>
+        <li>Your entire team needs to understand and buy in or the whole thing will fall apart</li>
+    </ul>
     <aside class="notes">
-        <ul>
-            <li>...</li>
-        </ul>
+
     </aside>
 </section>
 
-
-
-
-<!-- BEST PRACTICES -->
-<section data-background="media/zig.png"
-         data-background-size="100% 100%"
-         data-background-color="#000">
-    <h2 class="gold">Understand and document</h2>
-    <aside class="notes">
-        <ul>
-            <li>...</li>
-        </ul>
-    </aside>
-</section>
 
 <!-- BEST PRACTICES -->
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
     <h2 class="gold">Be dependable and repeatable</h2>
+    <ul>
+        <li>If everything works different each time or breaks, you will lose buy in and cause frustration</li>
+    </ul>
     <aside class="notes">
-        <ul>
-            <li>...</li>
-        </ul>
     </aside>
 </section>
 
-<!-- BEST PRACTICES -->
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
-    <h2 class="gold">Pay attention to the ecosystem</h2>
+    <h2 class="gold">Learn Drush</h2>
+    <ul>
+        <li>There are currently 8 config related Drush command to know and learn</li>
+    </ul>
+    <aside class="notes">
+
+    </aside>
+</section>
+
+<section data-background="media/zig.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <h2 class="gold">Available commands</h2>
+    <table valign="top">
+        <tr valign="top">
+            <td valign="top">
+                <div class="gold">The big guns</div>
+                <ul>
+                    <li>drush config-export (cex)</li>
+                    <li>drush config-import (cim)</li>
+                    <li>drush config-delete</li>
+                </ul>
+            </td>
+
+        </tr>
+    </table>
+
     <aside class="notes">
         <ul>
             <li>...</li>
@@ -150,32 +134,68 @@
     </aside>
 </section>
 
+<section data-background="media/zig.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <table valign="top">
+        <tr valign="top">
+            <td valign="top">
+                <div class="gold">The other guys</div>
+                <ul>
 
+                    <li>drush config-edit</li>
+                    <li>drush config-get</li>
+                    <li>drush config-list</li>
+                    <li>drush config-pull</li>
+                    <li>drush config-set</li>
+                </ul>
+            </td>
 
+        </tr>
+    </table>
+
+    <aside class="notes">
+        <ul>
+            <li>...</li>
+        </ul>
+    </aside>
+</section>
+
+<section data-background="media/zig.png"
+         data-background-size="100% 100%"
+         data-background-color="#000">
+    <h2 class="gold">Just say no -y</h2>
+    <ul>
+        <li>No chance to review and understand before taking action</li>
+    </ul>
+    <aside class="notes">
+
+    </aside>
+</section>
 
 <!-- BEST PRACTICES -->
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
     <h2 class="gold">Beware of history</h2>
-
+    <ul>
+        <li>There are an amazing amount of blog posts with old or no longer relevant tips, be careful</li>
+    </ul>
     <aside class="notes">
-        <ul>
-            <li>...</li>
-        </ul>
+
     </aside>
 </section>
-
 
 <!-- BEST PRACTICES -->
 <section data-background="media/zig.png"
          data-background-size="100% 100%"
          data-background-color="#000">
     <h2 class="gold">Develop an expert</h2>
+    <ul>
+        <li>You need to have at least one person on your team who understands and is driving this whole process</li>
+    </ul>
     <aside class="notes">
-        <ul>
-            <li>...</li>
-        </ul>
+
     </aside>
 </section>
 
